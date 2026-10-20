@@ -289,7 +289,7 @@
    "intent": "Define FIIs and DIIs in plain words and show their side-by-side roles.",
    "visual": {
     "type": "diagram",
-    "layout": "row",
+    "layout": "column",
     "nodes": [
      {
       "id": "fii",
@@ -308,13 +308,11 @@
      {
       "from": "fii",
       "to": "mkt",
-      "label": "buy and sell",
       "flow": true
      },
      {
       "from": "dii",
       "to": "mkt",
-      "label": "buy and sell",
       "flow": true
      }
     ],
@@ -339,14 +337,6 @@
        "dii"
       ],
       "caption": "DIIs: Indian funds, insurers, banks"
-     },
-     {
-      "at": 0.9,
-      "highlight": [
-       "fii",
-       "dii"
-      ],
-      "caption": "Both publish daily buys and sells"
      }
     ]
    },
@@ -425,11 +415,10 @@
    "intent": "Put the FII net selling figure on screen and say what it means.",
    "visual": {
     "type": "number",
-    "value": 9484.22,
-    "label": "FII net selling on 1 October 2026, in crore rupees",
-    "unit": "crore",
-    "source": "kotak neo, NSE data",
-    "animation": "bar"
+    "value": "9,484",
+    "label": "FII NET SELLING, 1 OCT 2026",
+    "unit": "crore rupees",
+    "source": "Kotak Neo, NSE data"
    },
    "shot": {
     "archetype": "data-reveal",
@@ -504,7 +493,7 @@
     "nodes": [
      {
       "id": "hh",
-      "label": "Households"
+      "label": "Savers"
      },
      {
       "id": "sip",
@@ -528,13 +517,11 @@
      {
       "from": "sip",
       "to": "mf",
-      "label": "20,000+ crore",
       "flow": true
      },
      {
       "from": "mf",
       "to": "sh",
-      "label": "invest it",
       "flow": true
      }
     ],
@@ -552,7 +539,7 @@
       "show": [
        "mf"
       ],
-      "caption": "Funds receive the money"
+      "caption": "Over 20,000 crore a month"
      },
      {
       "at": 0.7,

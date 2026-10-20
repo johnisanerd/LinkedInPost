@@ -83,6 +83,9 @@ All layers are planned, but only the explainer path is built first: one video en
 | Too big before first video | Slice 1 |
 | Disk and load on a small machine | watchdog, concurrency caps (S1, X1) |
 
+## 7d. Slice 1 result
+First explainer built end to end through the new pipeline (84.6 s, gate-CLEAR, TTS-only cost). Details, measured timings and the 16 bugs found by running it: [SLICE1-RESULTS](SLICE1-RESULTS.md). It needed manual finishing; the pipeline did not yet produce a passing episode unattended.
+
 ## 8. Decisions already made (owner)
 Licences not a concern (personal use). Plans first. Current languages only. No local TTS. All LLM calls through MiniMax. Outline approval off by default with a UI toggle. Research tiers are simply copied and used when available. New checks advisory first. Protected files may be edited (in-progress work committed and pushed as `e4f26d2`). Old drafts retired reversibly. Taste log records only at first.
 
