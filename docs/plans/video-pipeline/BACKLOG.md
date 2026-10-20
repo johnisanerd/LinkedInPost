@@ -113,4 +113,4 @@ Tags: **V** = value (H/M/L), **E** = effort (S/M/L), **Trig** = what should make
 - B-X2-3 Content hashing of reviewed frames (R-87). V M, E S.
 
 ## Housekeeping
-- B-H-1 Prune large reference clones after extraction (`reference/hyperframes` is 642 MB; disk is tight). V H, E S.
+- B-H-1 Prune large reference clones after extraction (`video-pipeline/reference/hyperframes` measured 1.4 GB in the local checkout on 2026-10-21; it is a nested Git checkout and appears untracked in the parent repo). Reproduce with `du -sh video-pipeline/reference/hyperframes` and `git status --short -- video-pipeline/reference/hyperframes`. V H, E S.
