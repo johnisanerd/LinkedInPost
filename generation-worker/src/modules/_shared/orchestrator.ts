@@ -93,8 +93,8 @@ const EMPTY_IMAGE_STRATEGY: ImageStrategySignal = {
   generationPrompt: '', textOverlayZone: '',
 };
 const EMPTY_VOCABULARY: VocabularySignal = {
-  industryTerms: [], powerPhrases: [], avoidWords: [], registerLevel: '',
-  toneWords: [], jargonBudget: 0,
+  industryTerms: [], powerPhrases: [], powerWords: [], avoidWords: [], registerLevel: '',
+  toneWords: [], toneMarkers: [], signaturePhrases: [], jargonBudget: 0,
 };
 const EMPTY_TRENDING: TrendingSignal = {
   trendingTopics: [], buzzwords: [], genZSlang: [], culturalReferences: [],

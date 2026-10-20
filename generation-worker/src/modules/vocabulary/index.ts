@@ -7,9 +7,12 @@ import vocabularyStrategyMd from './knowledge/vocabulary-strategy.md';
 const DEFAULT_SIGNAL: VocabularySignal = {
   industryTerms: ['ship', 'iterate', 'scale', 'impact', 'execution'],
   powerPhrases: ['built in public', 'hard-won lesson', 'here is what changed'],
+  powerWords: ['built in public', 'hard-won lesson', 'here is what changed'],
   avoidWords: ['synergy', 'leverage', 'disrupt', 'paradigm shift'],
   registerLevel: 'professional',
   toneWords: ['direct', 'practical', 'earned', 'clear'],
+  toneMarkers: ['direct', 'practical', 'earned', 'clear'],
+  signaturePhrases: [],
   jargonBudget: 4,
 };
 
@@ -75,22 +78,28 @@ Select vocabulary that is:
         maxOutputTokens: 2000,
       });
 
+      const powerPhrases = Array.isArray(result.powerPhrases) && result.powerPhrases.length > 0
+        ? result.powerPhrases
+        : DEFAULT_SIGNAL.powerPhrases;
+      const toneWords = Array.isArray(result.toneWords) && result.toneWords.length > 0
+        ? result.toneWords
+        : DEFAULT_SIGNAL.toneWords;
+
       return {
         industryTerms: Array.isArray(result.industryTerms) && result.industryTerms.length > 0
           ? result.industryTerms
           : DEFAULT_SIGNAL.industryTerms,
-        powerPhrases: Array.isArray(result.powerPhrases) && result.powerPhrases.length > 0
-          ? result.powerPhrases
-          : DEFAULT_SIGNAL.powerPhrases,
+        powerPhrases,
+        powerWords: powerPhrases,
         avoidWords: Array.isArray(result.avoidWords) && result.avoidWords.length > 0
           ? result.avoidWords
           : DEFAULT_SIGNAL.avoidWords,
         registerLevel: typeof result.registerLevel === 'string' && result.registerLevel.trim()
           ? result.registerLevel.trim()
           : DEFAULT_SIGNAL.registerLevel,
-        toneWords: Array.isArray(result.toneWords) && result.toneWords.length > 0
-          ? result.toneWords
-          : DEFAULT_SIGNAL.toneWords,
+        toneWords,
+        toneMarkers: toneWords,
+        signaturePhrases: [],
         jargonBudget: typeof result.jargonBudget === 'number' && result.jargonBudget >= 0 && result.jargonBudget <= 10
           ? Math.round(result.jargonBudget)
           : DEFAULT_SIGNAL.jargonBudget,
