@@ -67,6 +67,86 @@
   "open",
   "read-only: still open in code (DashboardSettingsDrawer.tsx 2251 lines; FeedPage.tsx 1490; EditorSidebar large); covered by LR-179"
  ],
+ "ARCH-001": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-001"
+ ],
+ "ARCH-002": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-009"
+ ],
+ "ARCH-003": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-050"
+ ],
+ "ARCH-004": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-053"
+ ],
+ "ARCH-005": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-040"
+ ],
+ "ARCH-006": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-017"
+ ],
+ "ARCH-007": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-051"
+ ],
+ "ARCH-008": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-021"
+ ],
+ "ARCH-009": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-018"
+ ],
+ "ARCH-010": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-070"
+ ],
+ "ARCH-011": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-133"
+ ],
+ "ARCH-012": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-019"
+ ],
+ "ARCH-013": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-139"
+ ],
+ "ARCH-014": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-046"
+ ],
+ "ARCH-015": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-043"
+ ],
+ "ARCH-016": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-164"
+ ],
+ "ARCH-017": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-162"
+ ],
+ "ARCH-018": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-189"
+ ],
+ "ARCH-019": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-076"
+ ],
+ "ARCH-020": [
+  "open",
+  "read-only: described in ARCH-AUDIT.md; work tracked on LR-186"
+ ],
  "AUT-001": [
   "open",
   "read-only: read automations/youtube_poller.py, .github/workflows/youtube-comment-poll.yml, worker/src/automations/routes.ts, worker/src/index.ts verifySchedulerSecret"
@@ -795,6 +875,18 @@
   "open",
   "read-only: LEDGER.md states 224 raw IDs merged with none missing (script-checked); duplicate merging is not human-checked."
  ],
+ "HYG-001": [
+  "open",
+  "read-only: checked by reading the cited file and git ls-files"
+ ],
+ "HYG-002": [
+  "open",
+  "read-only: checked by reading the cited file and git ls-files"
+ ],
+ "HYG-003": [
+  "open",
+  "read-only: checked by reading the cited file and git ls-files"
+ ],
  "IDEA-001": [
   "open",
   "read-only: setup/cli.py read: 40 lines, only parse_args() (lines 9-40); no action code."
@@ -930,6 +1022,22 @@
  "INV-020": [
   "investigate",
   "read-only: ARCH-AUDIT marks it hypothesis, not confirmed; not run. Covered by LR-070."
+ ],
+ "INV-021": [
+  "investigate",
+  "read-only: setup/wizard/steps/prereqs.py:22-29; .github/workflows/deploy-workers.yml:26"
+ ],
+ "INV-022": [
+  "investigate",
+  "read-only: worker/src/image-gen/providers/veo.ts:11"
+ ],
+ "INV-023": [
+  "investigate",
+  "read-only: setup/wizard/steps/apikeys.py:51"
+ ],
+ "INV-024": [
+  "investigate",
+  "read-only: worker/src/automations/platforms/linkedin.ts:13,127"
  ],
  "JRN-001": [
   "open",
@@ -1723,6 +1831,18 @@
   "investigate",
   "read-only: hypothesis from static reading of worker/src/llm/providers/gemini.ts:4-9; confirm by running the Repro and observing the described behaviour"
  ],
+ "NI-001": [
+  "open",
+  "read-only: checked by reading the cited file and git ls-files"
+ ],
+ "NI-002": [
+  "open",
+  "read-only: checked by reading the cited file and git ls-files"
+ ],
+ "NI-003": [
+  "open",
+  "read-only: checked by reading the cited file and git ls-files"
+ ],
  "NW-001": [
   "open",
   "read-only: still open in code (no code evidence given by reconciler); covered by LR-173"
@@ -1974,6 +2094,14 @@
  "SP-009": [
   "investigate",
   "read-only: reconciler could not confirm in code (not run (read-only rule)); needs a check"
+ ],
+ "SWP-001": [
+  "open",
+  "read-only: requirements.txt:6; grep generativeai over automations scripts setup setup.py frontend/server"
+ ],
+ "SWP-002": [
+  "open",
+  "read-only: setup/wizard/steps/prereqs.py:40-41"
  ],
  "TST-001": [
   "open",
