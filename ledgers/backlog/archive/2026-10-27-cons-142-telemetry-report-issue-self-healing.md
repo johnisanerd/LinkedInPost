@@ -1,0 +1,52 @@
+---
+id: 2026-10-27-cons-142-telemetry-report-issue-self-healing
+title: Telemetry / report-issue / self-healing
+created: '2026-10-27'
+updated: '2026-10-27'
+journeys: []
+related: []
+docs: []
+status: closed
+owner: null
+branch: null
+worktree: null
+claimed_at: null
+blocked_reason: null
+type: ux-gap
+severity: P2
+area: frontend/errors
+raw_id: CONS-142
+source_file: docs/launch-readiness/findings/EXISTING-REVIEWS.md
+resolution: declined
+---
+
+## Problem
+
+Telemetry / report-issue / self-healing.
+
+## Evidence and reproduction
+
+- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C13-10
+- **Alias:** C13-10
+- **Original tag:** MED (mapped to P2)
+- **Current status:** n-a
+- **Evidence:** future phase
+- **Covered by:** none
+
+## Acceptance criteria
+
+- The reproduction in Evidence and reproduction no longer shows the defect, checked at a named source revision.
+
+## Plan
+
+Decide the fix first; record the decision in Attempts.
+
+## Attempts
+
+- 2026-10-27 — Filed from docs/launch-readiness/findings/EXISTING-REVIEWS.md (CONS-142). Static reading only; nothing executed. Closed as declined.
+
+## Verification
+
+Not applicable or accepted as-is per the reconciliation: read-only: not applicable now (future phase)
+
+Evidence: read-only: not applicable now (future phase)
