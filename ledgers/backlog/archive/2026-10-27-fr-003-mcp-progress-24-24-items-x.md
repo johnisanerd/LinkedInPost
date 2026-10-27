@@ -26,11 +26,11 @@ MCP-PROGRESS: 24/24 items [x] (python setup files); nothing pending.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 3, row M-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 3, row M-1
 - **Alias:** M-1
 - **Original tag:** - (no severity given, defaulted to P2)
 - **Current status:** n-a
-- **Evidence:** launch-release/ledgers-legacy/MCP-PROGRESS.md (nothing to reconcile; not product-user-facing)
+- **Evidence:** docs/launch-readiness/legacy/MCP-PROGRESS.md (nothing to reconcile; not product-user-facing)
 - **Covered by:** none
 
 ## Acceptance criteria

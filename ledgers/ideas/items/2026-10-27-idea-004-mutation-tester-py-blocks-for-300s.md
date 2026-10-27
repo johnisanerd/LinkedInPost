@@ -15,7 +15,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-mutation_tester.py blocks for 300s+ (project-root detection, full-repo copy). Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (mutation_tester systemic issues)
+mutation_tester.py blocks for 300s+ (project-root detection, full-repo copy). Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (mutation_tester systemic issues)
 - **Detail:** Run on setup/wizard/steps/mode.py it copied the whole repo to a temp dir and timed out.
 - **Action:** Developer tooling; not shipped to users.
 

@@ -14,7 +14,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-Image pipeline tests with empty and over-2000-character text were never run. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (New ideas - worker/backend coverage)
+Image pipeline tests with empty and over-2000-character text were never run. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (New ideas - worker/backend coverage)
 - **Detail:** Ticked [x] but blocked by a gateway 403; no result.
 - **Action:** Test the generation-worker image pipeline with empty variant text and text over 2000 characters.
 

@@ -125,7 +125,7 @@ Does a standard LinkedIn app get access to /v2/webhookSubscriptions and MEMBER_T
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/worker-b.md WKB-031 (worker-b.md:310, "not available to standard LinkedIn apps (hypothesis)")
+- **Source:** docs/launch-readiness/findings/raw/worker-b.md WKB-031 (worker-b.md:310, "not available to standard LinkedIn apps (hypothesis)")
 - **Journeys:** J-114, J-116
 - **Confidence:** hypothesis
 - **Evidence:** worker/src/automations/platforms/linkedin.ts:13 and :127

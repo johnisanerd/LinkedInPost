@@ -26,7 +26,7 @@ Confirm modal before publish (rendered preview+channel+time).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C07-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C07-1
 - **Alias:** C07-1
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

@@ -25,7 +25,7 @@ Cached AI analysis on worker.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C03-11
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C03-11
 - **Alias:** C03-11
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** unverified

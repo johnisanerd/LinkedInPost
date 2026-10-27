@@ -26,7 +26,7 @@ Trending: "fallback to mock data".
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 2, row U-J11
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 2, row U-J11
 - **Alias:** U-J11
 - **Original tag:** ✅ (no severity given, defaulted to P2)
 - **Current status:** partial

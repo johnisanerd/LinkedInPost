@@ -26,7 +26,7 @@ Strip backend URL / technical hints from user errors.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C13-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C13-1
 - **Alias:** C13-1
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

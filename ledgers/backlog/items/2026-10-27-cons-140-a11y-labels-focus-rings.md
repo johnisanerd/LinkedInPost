@@ -26,7 +26,7 @@ A11y labels / focus rings.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C13-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C13-8
 - **Alias:** C13-8
 - **Original tag:** MED (mapped to P2)
 - **Current status:** partial

@@ -6,7 +6,7 @@ updated: '2026-10-27'
 journeys: []
 related: []
 docs: []
-status: open
+status: closed
 owner: null
 branch: null
 worktree: null
@@ -17,6 +17,7 @@ severity: P2
 area: repo/hygiene
 raw_id: HYG-001
 source_file: docs/launch-readiness/findings/HYGIENE.md
+resolution: fixed
 ---
 
 ## Problem
@@ -43,7 +44,8 @@ source_file: docs/launch-readiness/findings/HYGIENE.md
 ## Attempts
 
 - 2026-10-27 — Filed from docs/launch-readiness/findings/HYGIENE.md (HYG-001). Static reading only; nothing executed.
+- 2026-10-27 — Untracked the 10 committed .DS_Store files and ignored them (commit 77ad744).
 
 ## Verification
 
-Pending. No check has been run: this record was filed from static reading only. Read-only evidence on file: read-only: checked by reading the cited file and git ls-files.
+Checked on branch wrap-hygiene at commit 77ad744: `git ls-files state | wc -l` -> 0 (was 14); `git ls-files | grep -c '\.DS_Store$'` -> 0 (was 10); `.gitignore` now ignores `.DS_Store`; `git check-ignore -q state/exec/events.jsonl` succeeds. Files remain on disk. Not run: any app test (no code changed).

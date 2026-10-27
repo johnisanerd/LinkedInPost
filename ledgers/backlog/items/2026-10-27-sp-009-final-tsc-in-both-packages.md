@@ -25,7 +25,7 @@ Final tsc in both packages.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 4, row P2-T8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 4, row P2-T8
 - **Alias:** P2-T8
 - **Original tag:** [ ] (no severity given, defaulted to P2)
 - **Current status:** unverified

@@ -26,7 +26,7 @@ Onboarding Tour copy in DashboardQueue.tsx:435 promises a channel pill that is n
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md, row NEW-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md, row NEW-2
 - **Alias:** NEW-2
 - **Original tag:** new (not in a source; no severity given, defaulted to P2)
 - **Current status:** open

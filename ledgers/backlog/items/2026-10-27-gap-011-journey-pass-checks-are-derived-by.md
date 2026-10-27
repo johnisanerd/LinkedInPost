@@ -44,4 +44,4 @@ Decide the fix first; record the decision in Attempts.
 
 ## Verification
 
-Pending. No check has been run: this record was filed from static reading only. Read-only evidence on file: read-only: no execution evidence exists in launch-release/..
+Pending. No check has been run: this record was filed from static reading only. Read-only evidence on file: read-only: no execution evidence exists in docs/launch-readiness/..

@@ -6,7 +6,7 @@ updated: '2026-10-27'
 journeys: []
 related: []
 docs: []
-status: open
+status: closed
 owner: null
 branch: null
 worktree: null
@@ -17,6 +17,7 @@ severity: P1
 area: state/exec
 raw_id: HYG-002
 source_file: docs/launch-readiness/findings/HYGIENE.md
+resolution: fixed
 ---
 
 ## Problem
@@ -44,7 +45,8 @@ Runtime state from an agent run is tracked in git. these files change on every r
 ## Attempts
 
 - 2026-10-27 — Filed from docs/launch-readiness/findings/HYGIENE.md (HYG-002). Static reading only; nothing executed.
+- 2026-10-27 — Scanned state/exec for key/token/private-key patterns (none), then untracked state/exec (commit 77ad744). Files kept on disk.
 
 ## Verification
 
-Pending. No check has been run: this record was filed from static reading only. Read-only evidence on file: read-only: checked by reading the cited file and git ls-files.
+Checked on branch wrap-hygiene at commit 77ad744: `git ls-files state | wc -l` -> 0 (was 14); `git ls-files | grep -c '\.DS_Store$'` -> 0 (was 10); `.gitignore` now ignores `.DS_Store`; `git check-ignore -q state/exec/events.jsonl` succeeds. Files remain on disk. Not run: any app test (no code changed). Secret-shape scan of the 14 files before untracking: no matches for key, token, or private-key patterns.

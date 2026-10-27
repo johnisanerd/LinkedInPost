@@ -26,7 +26,7 @@ Bulk: inline column schedule/channel (not modals).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05c
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05c
 - **Alias:** C05c
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

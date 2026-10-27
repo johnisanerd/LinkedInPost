@@ -26,7 +26,7 @@ Subject A/B, analytics, segmentation.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-12
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-12
 - **Alias:** C08-12
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** n-a

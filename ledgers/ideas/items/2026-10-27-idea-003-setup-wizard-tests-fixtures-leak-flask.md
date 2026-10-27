@@ -14,7 +14,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-setup/wizard/tests fixtures leak Flask state when run with tests/. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (infrastructure bugs)
+setup/wizard/tests fixtures leak Flask state when run with tests/. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (infrastructure bugs)
 - **Detail:** Run together with tests/, 10+ tests fail in a cascade; run alone, all 18 pass. The note records only a workaround.
 - **Action:** Isolate the Flask client fixture, or document running the suites separately.
 

@@ -14,7 +14,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-No audit trail of template, variant and image per published post. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/ideas.md (Stage 8: keep an audit trail)
+No audit trail of template, variant and image per published post. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/ideas.md (Stage 8: keep an audit trail)
 - **Detail:** ideas.md asks for an audit trail of which template, variant and image were used. A grep for audit trail / auditLog in worker/src found nothing.
 - **Action:** Decide if the owner wants this at launch; if yes record post type and variant index at publish.
 

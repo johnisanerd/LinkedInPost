@@ -25,7 +25,7 @@ First-visit tours.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C13-11
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C13-11
 - **Alias:** C13-11
 - **Original tag:** LOW (mapped to P3)
 - **Current status:** partial

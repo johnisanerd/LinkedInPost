@@ -27,7 +27,7 @@ Variant compare 2-up.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C06-10
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C06-10
 - **Alias:** C06-10
 - **Original tag:** MED (mapped to P2)
 - **Current status:** partial

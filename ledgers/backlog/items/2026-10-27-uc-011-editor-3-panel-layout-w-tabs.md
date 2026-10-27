@@ -26,7 +26,7 @@ Editor "3-panel layout" w/ tabs Refine/Media/Topic-Rules/Email.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 2, row U-J1.7
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 2, row U-J1.7
 - **Alias:** U-J1.7
 - **Original tag:** ✅ (no severity given, defaulted to P2)
 - **Current status:** partial

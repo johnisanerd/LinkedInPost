@@ -27,7 +27,7 @@ Hover scissor on text passages in feed cards.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D3-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D3-4
 - **Alias:** D3-4
 - **Original tag:** spec (no severity given, defaulted to P2)
 - **Current status:** open

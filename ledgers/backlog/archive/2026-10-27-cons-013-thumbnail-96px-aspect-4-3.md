@@ -27,7 +27,7 @@ Thumbnail 96px aspect-[4/3].
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C02-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C02-3
 - **Alias:** C02-3
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

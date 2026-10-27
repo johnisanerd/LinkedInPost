@@ -175,13 +175,10 @@ See [protocol](../PROTOCOL.md), [template](TEMPLATE.md), and [all ledgers](../RE
 | [video-pipeline/ is out of scope](items/2026-10-27-gap-004-video-pipeline-is-out-of-scope.md) | open | — | — | 2026-10-27 |
 | [Pre-push compile check not run](items/2026-10-27-gap-006-pre-push-compile-check-not-run.md) | open | — | — | 2026-10-27 |
 | [Repo rule conflict: work on main, no worktrees](items/2026-10-27-gap-007-repo-rule-conflict-work-on-main.md) | open | — | — | 2026-10-27 |
-| [Template source repo named 'setup' not found](items/2026-10-27-gap-008-template-source-repo-named-setup-not.md) | open | — | — | 2026-10-27 |
 | [GitHub connectivity unreliable](items/2026-10-27-gap-009-github-connectivity-unreliable.md) | open | — | — | 2026-10-27 |
 | [Existing-review rows marked unverified were never checked](items/2026-10-27-gap-010-existing-review-rows-marked-unverified-were.md) | open | — | — | 2026-10-27 |
 | [Journey pass checks are derived by reading](items/2026-10-27-gap-011-journey-pass-checks-are-derived-by.md) | open | — | — | 2026-10-27 |
 | [Raw IDs aliased by script; cross-references may be incomplete](items/2026-10-27-gap-012-raw-ids-aliased-by-script-cross.md) | open | — | — | 2026-10-27 |
-| [10 .DS_Store files are tracked by git](items/2026-10-27-hyg-001-10-ds-store-files-are-tracked.md) | open | — | — | 2026-10-27 |
-| [Runtime state from an agent run is tracked in git](items/2026-10-27-hyg-002-runtime-state-from-an-agent-run.md) | open | — | — | 2026-10-27 |
 | [A tracked dev env file holds an auth-bypass secret key](items/2026-10-27-hyg-003-a-tracked-dev-env-file-holds.md) | open | — | — | 2026-10-27 |
 | [Do feed and clip REST calls fail because VITE_WORKER_URL is unset? (FEB-002 vs FEA-027)](items/2026-10-27-inv-001-do-feed-and-clip-rest-calls.md) | open | — | — | 2026-10-27 |
 | [Does Gemini return usageMetadata at the top level of the response? (WKB-013)](items/2026-10-27-inv-002-does-gemini-return-usagemetadata-at-the.md) | open | — | — | 2026-10-27 |
@@ -470,6 +467,10 @@ See [protocol](../PROTOCOL.md), [template](TEMPLATE.md), and [all ledgers](../RE
 | [Trending: "fallback to mock data"](items/2026-10-27-uc-020-trending-fallback-to-mock-data.md) | open | — | — | 2026-10-27 |
 | [Debate/cluster "in editor"](items/2026-10-27-uc-022-debate-cluster-in-editor.md) | open | — | — | 2026-10-27 |
 | [E2E matrix items all unchecked; "100% wired" claim](items/2026-10-27-uc-023-e2e-matrix-items-all-unchecked-100.md) | open | — | — | 2026-10-27 |
+| [The ledger CI check from the setup scaffold is not installed, so ledger validity is only checked by hand](items/2026-10-27-wrap-001-ledger-ci-check-not-installed.md) | open | — | — | 2026-10-27 |
+| [The ledger record generator exists only in scratch space, so the imported records cannot be regenerated from the repository](items/2026-10-27-wrap-002-ledger-generator-only-in-scratch.md) | open | — | — | 2026-10-27 |
+| [146 journeys have no verification owner, so no one is accountable for running them](items/2026-10-27-wrap-003-journeys-have-no-verification-owner.md) | open | — | — | 2026-10-27 |
+| [The pre-setup status snapshot and its duplicate findings files can be retired once the ledger is accepted](items/2026-10-27-wrap-004-retire-pre-setup-status-snapshot.md) | open | — | — | 2026-10-27 |
 
 ## Archived records
 
@@ -548,3 +549,6 @@ See [protocol](../PROTOCOL.md), [template](TEMPLATE.md), and [all ledgers](../RE
 | [Phase-3 strategic (personalisation model, closed-loop tuning, A/B recipe, cost dashboard, recurrence, collab)](archive/2026-10-27-cons-148-phase-3-strategic-personalisation-model-closed.md) | closed | — | — | 2026-10-27 |
 | [Report is a descriptive snapshot (no open items); stale numbers (FeedPage 639 lines, BATCH 10, 5 platform panels, absolute paths under /Users/praty...](archive/2026-10-27-fr-001-report-is-a-descriptive-snapshot-no.md) | closed | — | — | 2026-10-27 |
 | [MCP-PROGRESS: 24/24 items \[x\] (python setup files); nothing pending](archive/2026-10-27-fr-003-mcp-progress-24-24-items-x.md) | closed | — | — | 2026-10-27 |
+| [Template source repo named 'setup' not found](archive/2026-10-27-gap-008-template-source-repo-named-setup-not.md) | closed | — | — | 2026-10-27 |
+| [10 .DS_Store files are tracked by git](archive/2026-10-27-hyg-001-10-ds-store-files-are-tracked.md) | closed | — | — | 2026-10-27 |
+| [Runtime state from an agent run is tracked in git](archive/2026-10-27-hyg-002-runtime-state-from-an-agent-run.md) | closed | — | — | 2026-10-27 |

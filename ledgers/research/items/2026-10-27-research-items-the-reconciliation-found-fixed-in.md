@@ -53,8 +53,8 @@ Reading of the cited code for each existing-review row marked fixed. Not execute
 - CONS-144: read-only: fixed per reconciliation, evidence campaign/CampaignPage.tsx:70,591-603 (Prompt/File/Paste)
 - CONS-146: read-only: fixed per reconciliation, evidence CampaignPage.tsx:247-251 localStorage; :469 undo text
 - GAP-002: read-only: generation-worker/src reviewed by gen-pkg (GWP-*); reconciler grep timeout no longer blocks coverage
-- GAP-003: read-only: covered by launch-release/findings/TEST-COVERAGE.md, AUTOMATIONS.md and JOURNEY-DELTA.md
-- GAP-005: read-only: covered by launch-release/findings/TEST-COVERAGE.md, AUTOMATIONS.md and JOURNEY-DELTA.md
+- GAP-003: read-only: covered by docs/launch-readiness/findings/TEST-COVERAGE.md, AUTOMATIONS.md and JOURNEY-DELTA.md
+- GAP-005: read-only: covered by docs/launch-readiness/findings/TEST-COVERAGE.md, AUTOMATIONS.md and JOURNEY-DELTA.md
 - REJ-003: read-only: existing-reviews.md recorded evidence FeedArticleCard.tsx:76-83
 - REJ-004: read-only: existing-reviews.md recorded evidence FeedArticleCard.tsx:~69 `line-clamp-2` + content fallback
 - REJ-005: read-only: existing-reviews.md recorded evidence features/feed/hooks/useFeedKeyboard.ts:38; FeedPage.tsx:586-596

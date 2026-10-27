@@ -15,7 +15,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-ideas.md content-pipeline operating model (8 stages, few-shot library, router rubric). Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/ideas.md
+ideas.md content-pipeline operating model (8 stages, few-shot library, router rubric). Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/ideas.md
 - **Detail:** A pasted design spec, not a tracker: intake brief, optional research, post-type routing, draft, variants, automated review, human approval, visuals, publish. The engine already routes post types and returns variants with rationale (see AC-004 in EXISTING-REVIEWS.md).
 - **Action:** Design guidance for later quality work.
 

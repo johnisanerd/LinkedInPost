@@ -25,7 +25,7 @@ Mobile sticky footer in editor.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05-5
 - **Alias:** C05-5
 - **Original tag:** MED (mapped to P2)
 - **Current status:** unverified

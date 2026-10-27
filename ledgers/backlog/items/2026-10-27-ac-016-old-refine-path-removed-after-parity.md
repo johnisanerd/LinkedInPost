@@ -25,7 +25,7 @@ Old refine path removed after parity.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row DE-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row DE-4
 - **Alias:** DE-4
 - **Original tag:** EGW (no severity given, defaulted to P2)
 - **Current status:** unverified

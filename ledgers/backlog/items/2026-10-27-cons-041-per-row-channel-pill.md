@@ -26,7 +26,7 @@ Per-row channel pill.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-2
 - **Alias:** C04-2
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

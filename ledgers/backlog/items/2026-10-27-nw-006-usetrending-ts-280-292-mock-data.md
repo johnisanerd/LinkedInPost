@@ -26,7 +26,7 @@ useTrending.ts:280-292 mock-data path still present for !useRealApis; confirm pr
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md, row NEW-6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md, row NEW-6
 - **Alias:** NEW-6
 - **Original tag:** new (not in a source; no severity given, defaulted to P2)
 - **Current status:** open

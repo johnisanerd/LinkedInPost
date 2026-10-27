@@ -25,7 +25,7 @@ Deep-link hard-refresh audit.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C01-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C01-8
 - **Alias:** C01-8
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** unverified

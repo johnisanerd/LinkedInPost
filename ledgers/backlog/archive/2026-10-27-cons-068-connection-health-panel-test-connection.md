@@ -27,7 +27,7 @@ Connection Health panel / Test connection.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05-11
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05-11
 - **Alias:** C05-11
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

@@ -25,7 +25,7 @@ Persist generationProgress.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C10-7
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C10-7
 - **Alias:** C10-7
 - **Original tag:** MED (mapped to P2)
 - **Current status:** unverified

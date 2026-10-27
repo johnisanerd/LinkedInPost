@@ -16,7 +16,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-Expired-token credentials file and empty-argument tests bounced. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (Bounced section)
+Expired-token credentials file and empty-argument tests bounced. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (Bounced section)
 - **Detail:** Both marked [!] as infrastructure unavailable. setup/cli.py does nothing (IDEA-001), so the tests have no target.
 - **Action:** No action.
 

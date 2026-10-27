@@ -25,7 +25,7 @@ Topic Duplicate action.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-9
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-9
 - **Alias:** C04-9
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

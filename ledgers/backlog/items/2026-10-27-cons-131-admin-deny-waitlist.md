@@ -26,7 +26,7 @@ Admin: Deny waitlist.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C12-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C12-2
 - **Alias:** C12-2
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

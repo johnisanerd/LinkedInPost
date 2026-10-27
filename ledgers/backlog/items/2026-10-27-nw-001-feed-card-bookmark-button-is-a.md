@@ -26,7 +26,7 @@ Feed card Bookmark button is a dead control: FeedArticleCard.tsx Bookmark onClic
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md, row NEW-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md, row NEW-1
 - **Alias:** NEW-1
 - **Original tag:** new (not in a source; no severity given, defaulted to P2)
 - **Current status:** open

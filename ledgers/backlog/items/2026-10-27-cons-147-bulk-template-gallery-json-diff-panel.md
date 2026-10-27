@@ -26,7 +26,7 @@ Bulk: template gallery, JSON diff panel.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05e
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05e
 - **Alias:** C05e
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

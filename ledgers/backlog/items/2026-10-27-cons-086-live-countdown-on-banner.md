@@ -26,7 +26,7 @@ Live countdown on banner.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C07-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C07-5
 - **Alias:** C07-5
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

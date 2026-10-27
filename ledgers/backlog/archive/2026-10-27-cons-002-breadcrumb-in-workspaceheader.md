@@ -27,7 +27,7 @@ Breadcrumb in WorkspaceHeader.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C01-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C01-2
 - **Alias:** C01-2
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

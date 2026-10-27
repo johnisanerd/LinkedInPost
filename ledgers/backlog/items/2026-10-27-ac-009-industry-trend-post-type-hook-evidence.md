@@ -26,7 +26,7 @@ Industry Trend post type + HOOK->EVIDENCE->... structure.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D2-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D2-2
 - **Alias:** D2-2
 - **Original tag:** AC2 (no severity given, defaulted to P2)
 - **Current status:** partial

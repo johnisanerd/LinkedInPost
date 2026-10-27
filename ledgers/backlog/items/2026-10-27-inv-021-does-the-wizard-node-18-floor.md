@@ -30,7 +30,7 @@ Does the wizard Node 18 floor accept a Node version that the pinned wrangler 4 c
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/setup.md SET-033 (setup.md:333, "Node 18 is below what wrangler 4 / CI (Node 24) assume (hypothesis)")
+- **Source:** docs/launch-readiness/findings/raw/setup.md SET-033 (setup.md:333, "Node 18 is below what wrangler 4 / CI (Node 24) assume (hypothesis)")
 - **Journeys:** J-001, J-002
 - **Confidence:** hypothesis
 - **Evidence:** setup/wizard/steps/prereqs.py:22-29 (Node 18+); .github/workflows/deploy-workers.yml:26,63 and deploy-pages.yml:33 (Node 24); worker/package.json wrangler ^4.92.0

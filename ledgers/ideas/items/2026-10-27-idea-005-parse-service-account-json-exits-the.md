@@ -14,7 +14,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-parse_service_account_json exits the process via fail()/sys.exit(1). Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (DESIGN ISSUE note)
+parse_service_account_json exits the process via fail()/sys.exit(1). Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (DESIGN ISSUE note)
 - **Detail:** The function cannot be unit-tested without mocking sys.exit, and a library helper kills the wizard process on bad input.
 - **Action:** Raise an exception from the helper and let the caller decide.
 

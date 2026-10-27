@@ -25,7 +25,7 @@ Mobile sidebar scrim-tap Drawer.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C01-7
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C01-7
 - **Alias:** C01-7
 - **Original tag:** MED (mapped to P2)
 - **Current status:** unverified

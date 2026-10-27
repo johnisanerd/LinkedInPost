@@ -31,7 +31,7 @@ Is gemini-2.0-flash, the model the wizard uses to validate the Gemini key, still
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/setup.md SET-026 (setup.md:263, "Model name validity is a hypothesis")
+- **Source:** docs/launch-readiness/findings/raw/setup.md SET-026 (setup.md:263, "Model name validity is a hypothesis")
 - **Journeys:** J-001, J-004
 - **Confidence:** hypothesis
 - **Evidence:** setup/wizard/steps/apikeys.py:51

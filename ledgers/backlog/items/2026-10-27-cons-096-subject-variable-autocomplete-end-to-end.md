@@ -26,7 +26,7 @@ Subject {{variable}} autocomplete / end-to-end vars.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-7
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-7
 - **Alias:** C08-7
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

@@ -26,7 +26,7 @@ Drop-zone affordance + toast.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C03-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C03-2
 - **Alias:** C03-2
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

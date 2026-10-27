@@ -25,7 +25,7 @@ source_file: docs/launch-readiness/findings/EXISTING-REVIEWS.md
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-18
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-18
 - **Alias:** C04-18
 - **Original tag:** MED (mapped to P2)
 - **Current status:** unverified

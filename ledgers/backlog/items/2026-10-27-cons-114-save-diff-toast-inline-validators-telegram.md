@@ -26,7 +26,7 @@ Save diff toast, inline validators (Telegram ID etc.).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C09-13
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C09-13
 - **Alias:** C09-13
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

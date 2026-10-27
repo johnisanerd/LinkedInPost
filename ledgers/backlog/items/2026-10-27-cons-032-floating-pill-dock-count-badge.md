@@ -25,7 +25,7 @@ Floating pill dock, count badge.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C03-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C03-4
 - **Alias:** C03-4
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial
