@@ -25,7 +25,7 @@ Per-post dimension override beats workspace.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D2-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D2-3
 - **Alias:** D2-3
 - **Original tag:** AC3 (no severity given, defaulted to P2)
 - **Current status:** unverified

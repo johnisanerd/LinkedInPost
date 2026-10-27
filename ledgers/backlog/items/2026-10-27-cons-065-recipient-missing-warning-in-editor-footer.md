@@ -25,7 +25,7 @@ Recipient-missing warning in editor footer.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05-8
 - **Alias:** C05-8
 - **Original tag:** MED (mapped to P2)
 - **Current status:** unverified

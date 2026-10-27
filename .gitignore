@@ -36,3 +36,5 @@ data/generated_prompts/
 frontend/core.*
 test-goal.txt
 .runs/
+.DS_Store
+**/.DS_Store

@@ -26,7 +26,7 @@ Debate/cluster "in editor".
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 2, row U-J12b
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 2, row U-J12b
 - **Alias:** U-J12b
 - **Original tag:** ✅ (no severity given, defaulted to P2)
 - **Current status:** partial

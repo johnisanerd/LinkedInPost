@@ -27,7 +27,7 @@ CodeMirror for HTML.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-10
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-10
 - **Alias:** C08-10
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

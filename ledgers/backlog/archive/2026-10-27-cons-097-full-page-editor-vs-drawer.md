@@ -27,7 +27,7 @@ Full-page editor vs drawer.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-8
 - **Alias:** C08-8
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

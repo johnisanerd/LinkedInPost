@@ -14,7 +14,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-llm-core missing model key and researcher rate-limit tests were never run. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (New ideas - packages coverage)
+llm-core missing model key and researcher rate-limit tests were never run. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (New ideas - packages coverage)
 - **Detail:** Ticked [x] but blocked by a gateway 403; no result.
 - **Action:** Test packages/llm-core provider config with a missing model key and packages/researcher with a rate-limited response.
 

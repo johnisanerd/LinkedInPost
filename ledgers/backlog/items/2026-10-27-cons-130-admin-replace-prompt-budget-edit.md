@@ -26,7 +26,7 @@ Admin: replace prompt() budget edit.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C12-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C12-1
 - **Alias:** C12-1
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

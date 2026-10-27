@@ -15,7 +15,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-Wizard deploy tests mock subprocess and kill 0% of mutants. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (mutation_tester on setup/wizard/steps/deploy.py)
+Wizard deploy tests mock subprocess and kill 0% of mutants. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (mutation_tester on setup/wizard/steps/deploy.py)
 - **Detail:** The mutation run reported a 0% kill rate: the tests are decorative.
 - **Action:** Add assertions on the deploy step's real outputs, or treat setup tests as non-evidence for the setup P0 items.
 

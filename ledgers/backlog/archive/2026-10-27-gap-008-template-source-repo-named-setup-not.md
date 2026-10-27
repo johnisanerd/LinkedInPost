@@ -6,7 +6,7 @@ updated: '2026-10-27'
 journeys: []
 related: []
 docs: []
-status: open
+status: closed
 owner: null
 branch: null
 worktree: null
@@ -17,6 +17,7 @@ severity: P3
 area: process/review
 raw_id: GAP-008
 source_file: docs/launch-readiness/findings/GAPS.md
+resolution: fixed
 ---
 
 ## Problem
@@ -40,7 +41,8 @@ Decide the fix first; record the decision in Attempts.
 ## Attempts
 
 - 2026-10-27 — Filed from docs/launch-readiness/findings/GAPS.md (GAP-008). Static reading only; nothing executed.
+- 2026-10-27 — Found the setup repository at ~/setup (home folder, not ~/Documents/GitHub). The earlier 'no such repo' statement was wrong: the search had not covered the home folder. Corrected here.
 
 ## Verification
 
-Pending. No check has been run: this record was filed from static reading only. Read-only evidence on file: read-only: directory listing of ~/Documents/GitHub shows no 'setup' repo; the two named template paths exist..
+Correction: the repository exists at /Users/pratyush.mishra/setup (git, origin P1927/setup, with ledgers/ and tools/ledgers). Checked with `ls -la ~/setup` and `git -C ~/setup remote -v`. The scaffold was installed from it and the ledgers were rebuilt on it (commit 85b2fb7 on main).

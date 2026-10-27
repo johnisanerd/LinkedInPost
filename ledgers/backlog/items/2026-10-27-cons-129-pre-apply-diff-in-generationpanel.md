@@ -25,7 +25,7 @@ Pre-apply diff in GenerationPanel.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C11-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C11-4
 - **Alias:** C11-4
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

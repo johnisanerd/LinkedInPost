@@ -25,7 +25,7 @@ tsc passes both packages.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D2-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D2-5
 - **Alias:** D2-5
 - **Original tag:** AC5 (no severity given, defaulted to P2)
 - **Current status:** unverified

@@ -25,7 +25,7 @@ Copy install logs button.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C09-17
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C09-17
 - **Alias:** C09-17
 - **Original tag:** LOW (mapped to P3)
 - **Current status:** open

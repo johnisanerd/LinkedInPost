@@ -15,7 +15,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-Frontend bootstrap, network-timeout and empty-feed tests were never run. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (New ideas - frontend coverage)
+Frontend bootstrap, network-timeout and empty-feed tests were never run. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (New ideas - frontend coverage)
 - **Detail:** Ticked [x] but blocked by a gateway 403. They cover App.tsx with a missing backend URL, backendApi.ts on network timeout and the feed with an empty response. The first relates to INV-001.
 - **Action:** Write the three tests.
 

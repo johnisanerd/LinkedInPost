@@ -26,7 +26,7 @@ Scheduled state copy + "Send now anyway".
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C07-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C07-3
 - **Alias:** C07-3
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

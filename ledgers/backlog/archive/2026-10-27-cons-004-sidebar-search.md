@@ -27,7 +27,7 @@ Sidebar search.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C01-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C01-4
 - **Alias:** C01-4
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

@@ -28,7 +28,7 @@ Is the Veo :generateVideo URL a real Gemini endpoint, or does every Veo video re
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/worker-b.md WKB-027 (worker-b.md:270, "Veo uses a :generateVideo path that is not a documented Gemini endpoint (hypothesis, low impact)")
+- **Source:** docs/launch-readiness/findings/raw/worker-b.md WKB-027 (worker-b.md:270, "Veo uses a :generateVideo path that is not a documented Gemini endpoint (hypothesis, low impact)")
 - **Journeys:** J-068
 - **Confidence:** hypothesis
 - **Evidence:** worker/src/image-gen/providers/veo.ts:11 and generation-worker/src/image-gen/providers/veo.ts:11

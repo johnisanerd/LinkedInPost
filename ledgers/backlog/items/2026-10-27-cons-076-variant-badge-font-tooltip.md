@@ -25,7 +25,7 @@ Variant badge font + tooltip.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C06-6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C06-6
 - **Alias:** C06-6
 - **Original tag:** MED (mapped to P2)
 - **Current status:** unverified

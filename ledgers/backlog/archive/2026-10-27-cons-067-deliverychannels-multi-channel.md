@@ -27,7 +27,7 @@ deliveryChannels[] multi-channel.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05-10
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05-10
 - **Alias:** C05-10
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

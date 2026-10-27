@@ -25,7 +25,7 @@ MicButton 3 states.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-11
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-11
 - **Alias:** C04-11
 - **Original tag:** LOW (mapped to P3)
 - **Current status:** partial

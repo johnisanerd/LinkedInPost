@@ -26,7 +26,7 @@ Report: right-click delete only; sidebar hidden <lg; hover-only clip.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 3, row F-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 3, row F-2
 - **Alias:** F-2
 - **Original tag:** info (no severity given, defaulted to P2)
 - **Current status:** open

@@ -25,7 +25,7 @@ Deterministic drop-menu in AddTopic.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-13
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-13
 - **Alias:** C04-13
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** unverified

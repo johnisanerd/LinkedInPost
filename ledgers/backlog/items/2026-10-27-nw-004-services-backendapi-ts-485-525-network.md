@@ -26,7 +26,7 @@ services/backendApi.ts:485-525 network-failure message tells end users to edit C
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md, row NEW-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md, row NEW-4
 - **Alias:** NEW-4
 - **Original tag:** new (not in a source; no severity given, defaulted to P2)
 - **Current status:** open

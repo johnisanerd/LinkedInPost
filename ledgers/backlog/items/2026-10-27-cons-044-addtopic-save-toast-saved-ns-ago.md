@@ -26,7 +26,7 @@ AddTopic save toast / "Saved Ns ago".
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-5
 - **Alias:** C04-5
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

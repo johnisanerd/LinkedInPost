@@ -26,7 +26,7 @@ No transient toast system in app at all (only modal showAlert); success feedback
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md, row NEW-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md, row NEW-5
 - **Alias:** NEW-5
 - **Original tag:** new (not in a source; no severity given, defaulted to P2)
 - **Current status:** open

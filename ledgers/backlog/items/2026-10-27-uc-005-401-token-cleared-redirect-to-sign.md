@@ -25,7 +25,7 @@ source_file: docs/launch-readiness/findings/EXISTING-REVIEWS.md
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 2, row U-J1.1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 2, row U-J1.1
 - **Alias:** U-J1.1
 - **Original tag:** ✅ (no severity given, defaulted to P2)
 - **Current status:** unverified

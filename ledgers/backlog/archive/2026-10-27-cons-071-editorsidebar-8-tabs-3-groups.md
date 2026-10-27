@@ -27,7 +27,7 @@ EditorSidebar 8 tabs -> 3 groups.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C06-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C06-1
 - **Alias:** C06-1
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

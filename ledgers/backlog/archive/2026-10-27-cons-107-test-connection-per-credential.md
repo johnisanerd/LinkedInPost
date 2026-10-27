@@ -27,7 +27,7 @@ Test connection per credential.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C09-6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C09-6
 - **Alias:** C09-6
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

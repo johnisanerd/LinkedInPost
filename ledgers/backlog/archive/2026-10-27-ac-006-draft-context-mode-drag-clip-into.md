@@ -27,7 +27,7 @@ Draft Context Mode: drag clip into editor as context block.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D3-6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D3-6
 - **Alias:** D3-6
 - **Original tag:** spec (no severity given, defaulted to P2)
 - **Current status:** partial

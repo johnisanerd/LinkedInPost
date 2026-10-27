@@ -26,7 +26,7 @@ Inline validation (name/subject/emails).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-2
 - **Alias:** C08-2
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

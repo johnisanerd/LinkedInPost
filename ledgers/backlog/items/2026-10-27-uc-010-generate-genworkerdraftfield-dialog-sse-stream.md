@@ -26,7 +26,7 @@ Generate -> GenWorkerDraftField dialog, SSE stream.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 2, row U-J1.6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 2, row U-J1.6
 - **Alias:** U-J1.6
 - **Original tag:** ✅ (no severity given, defaulted to P2)
 - **Current status:** partial

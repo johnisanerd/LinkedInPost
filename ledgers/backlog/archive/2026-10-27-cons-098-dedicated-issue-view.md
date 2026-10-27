@@ -27,7 +27,7 @@ Dedicated issue view.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-9
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-9
 - **Alias:** C08-9
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** partial

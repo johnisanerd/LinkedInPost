@@ -27,7 +27,7 @@ Flip split to editor 60-65%.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C06-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C06-8
 - **Alias:** C06-8
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

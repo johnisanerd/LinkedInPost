@@ -30,7 +30,7 @@ requirements.txt pins google-generativeai==0.8.2, a deprecated package that noth
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/setup.md SET-033 (the "hypothesis on protobuf conflicts" clause, setup.md:333)
+- **Source:** docs/launch-readiness/findings/raw/setup.md SET-033 (the "hypothesis on protobuf conflicts" clause, setup.md:333)
 - **Journeys:** J-001, J-011
 - **Confidence:** confirmed-by-reading
 - **Evidence:** requirements.txt:6; grep for generativeai over automations/, scripts/, setup/, setup.py, frontend/server finds only requirements.txt

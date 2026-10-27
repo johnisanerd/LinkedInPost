@@ -27,7 +27,7 @@ Curated panel compact + trending-word chips.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C02-15
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C02-15
 - **Alias:** C02-15
 - **Original tag:** MED (mapped to P2)
 - **Current status:** partial

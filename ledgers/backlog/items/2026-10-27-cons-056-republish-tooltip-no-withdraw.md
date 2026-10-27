@@ -26,7 +26,7 @@ Republish tooltip; no withdraw.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C04-17
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C04-17
 - **Alias:** C04-17
 - **Original tag:** MED (mapped to P2)
 - **Current status:** partial

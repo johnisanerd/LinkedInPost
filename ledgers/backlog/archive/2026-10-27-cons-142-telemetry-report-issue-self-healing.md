@@ -26,7 +26,7 @@ Telemetry / report-issue / self-healing.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C13-10
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C13-10
 - **Alias:** C13-10
 - **Original tag:** MED (mapped to P2)
 - **Current status:** n-a

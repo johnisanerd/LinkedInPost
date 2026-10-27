@@ -27,7 +27,7 @@ Detail: Read-full primary, lightbox, details wrapper, opinion textarea.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C03-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C03-8
 - **Alias:** C03-8
 - **Original tag:** MED (mapped to P2)
 - **Current status:** partial

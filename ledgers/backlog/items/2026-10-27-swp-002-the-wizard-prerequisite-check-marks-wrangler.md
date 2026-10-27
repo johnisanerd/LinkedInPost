@@ -30,7 +30,7 @@ The wizard prerequisite check marks Wrangler as found when only npx exists, then
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/setup.md SET-033 (setup.md:333, "prereq check passes if only npx exists")
+- **Source:** docs/launch-readiness/findings/raw/setup.md SET-033 (setup.md:333, "prereq check passes if only npx exists")
 - **Journeys:** J-001, J-002
 - **Confidence:** confirmed-by-reading
 - **Evidence:** setup/wizard/steps/prereqs.py:40-41 (`shutil.which('wrangler') or shutil.which('npx')`)

@@ -26,7 +26,7 @@ Two-panel layout, trending rail top carousel <lg.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C02-10
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C02-10
 - **Alias:** C02-10
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

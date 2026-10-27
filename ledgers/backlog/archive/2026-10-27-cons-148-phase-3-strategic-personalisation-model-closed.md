@@ -26,7 +26,7 @@ Phase-3 strategic (personalisation model, closed-loop tuning, A/B recipe, cost d
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C-F
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C-F
 - **Alias:** C-F
 - **Original tag:** HIGH/MED (mixed tag, higher taken: P1)
 - **Current status:** n-a

@@ -26,7 +26,7 @@ components/ui/ErrorBanner.tsx, EmptyState.tsx, LoadingSkeleton.tsx are unused de
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md, row NEW-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md, row NEW-3
 - **Alias:** NEW-3
 - **Original tag:** new (not in a source; no severity given, defaulted to P2)
 - **Current status:** open

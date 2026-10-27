@@ -25,7 +25,7 @@ Approval doesn't require Save Variants.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row DE-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row DE-3
 - **Alias:** DE-3
 - **Original tag:** EGW (no severity given, defaulted to P2)
 - **Current status:** unverified

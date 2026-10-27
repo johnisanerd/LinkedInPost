@@ -26,7 +26,7 @@ Mode 1 author-voice keeps >=80% of words.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D2-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D2-1
 - **Alias:** D2-1
 - **Original tag:** AC1 (no severity given, defaulted to P2)
 - **Current status:** unverified

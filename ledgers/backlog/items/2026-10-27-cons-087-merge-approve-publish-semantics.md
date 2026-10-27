@@ -26,7 +26,7 @@ Merge Approve+Publish semantics.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C07-6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C07-6
 - **Alias:** C07-6
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

@@ -16,7 +16,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-setup/cli.py is an inert scaffold: parse_args() runs but nothing executes. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/MCP-TEST-IDEAS.md (bootstrap idempotency test note)
+setup/cli.py is an inert scaffold: parse_args() runs but nothing executes. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/MCP-TEST-IDEAS.md (bootstrap idempotency test note)
 - **Detail:** setup/cli.py is 40 lines: parse_args() and a __main__ call, no main action. Flags (including --web) are accepted and do nothing. The real entry is setup.py.
 - **Action:** Delete the dead CLI or make it fail with a pointer to setup.py, so nobody thinks it configures anything.
 

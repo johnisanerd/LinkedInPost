@@ -26,7 +26,7 @@ Per-clip "Add to topic" menu (touch).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C03-6
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C03-6
 - **Alias:** C03-6
 - **Original tag:** HIGH/MED (mixed tag, higher taken: P1)
 - **Current status:** open

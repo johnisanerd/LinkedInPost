@@ -27,7 +27,7 @@ Passage clipping from stream (SelectionClipper in card).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C03-7
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C03-7
 - **Alias:** C03-7
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

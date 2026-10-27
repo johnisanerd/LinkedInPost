@@ -16,7 +16,7 @@ source_file: docs/launch-readiness/findings/LEGACY-TRACKERS.md
 
 ## Idea
 
-FEED report suggestion: let ClipsDock assign a clip to several posts. Captured from the legacy tracker; not a commitment. - **Source:** launch-release/ledgers-legacy/FEED_EXPLORATION_REPORT.md (Next Steps for Implementation, item 6)
+FEED report suggestion: let ClipsDock assign a clip to several posts. Captured from the legacy tracker; not a commitment. - **Source:** docs/launch-readiness/legacy/FEED_EXPLORATION_REPORT.md (Next Steps for Implementation, item 6)
 - **Detail:** The report says ClipsDock assigns a single post id and could expand to multiple posts. The rest of the report is a descriptive snapshot (see FR-001 and FR-002 in EXISTING-REVIEWS.md).
 - **Action:** Post-launch feature.
 

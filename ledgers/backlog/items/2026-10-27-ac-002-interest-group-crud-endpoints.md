@@ -25,7 +25,7 @@ Interest-group CRUD endpoints.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 5, row D3-2
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 5, row D3-2
 - **Alias:** D3-2
 - **Original tag:** spec (no severity given, defaulted to P2)
 - **Current status:** partial

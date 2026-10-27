@@ -27,7 +27,7 @@ DAG page for standard users.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C10-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C10-4
 - **Alias:** C10-4
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

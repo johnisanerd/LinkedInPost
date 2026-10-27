@@ -27,7 +27,7 @@ Search input in feed (+desc toggle).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C02-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C02-5
 - **Alias:** C02-5
 - **Original tag:** MED/HIGH (mixed tag, higher taken: P1)
 - **Current status:** partial

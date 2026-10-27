@@ -26,7 +26,7 @@ Retry action on failures (useAlert).
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C13-4
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C13-4
 - **Alias:** C13-4
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

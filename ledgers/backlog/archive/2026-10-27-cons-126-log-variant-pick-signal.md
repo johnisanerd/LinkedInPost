@@ -27,7 +27,7 @@ Log variant pick signal.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C11-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C11-1
 - **Alias:** C11-1
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

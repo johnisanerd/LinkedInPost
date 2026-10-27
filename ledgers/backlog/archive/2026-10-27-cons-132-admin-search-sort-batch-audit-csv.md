@@ -27,7 +27,7 @@ Admin: search/sort/batch/audit/CSV.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C12-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C12-3
 - **Alias:** C12-3
 - **Original tag:** HIGH/MED (mixed tag, higher taken: P1)
 - **Current status:** open

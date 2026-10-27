@@ -25,7 +25,7 @@ Approve/Send always visible.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C08-3
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C08-3
 - **Alias:** C08-3
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** unverified

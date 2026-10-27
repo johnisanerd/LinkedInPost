@@ -27,7 +27,7 @@ Sidebar grouped under Plan/Make/Ship/Configure/Admin.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C01-1
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C01-1
 - **Alias:** C01-1
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** open

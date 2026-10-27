@@ -27,7 +27,7 @@ Multi-channel chips.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C07-8
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C07-8
 - **Alias:** C07-8
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

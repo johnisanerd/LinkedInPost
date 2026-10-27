@@ -27,7 +27,7 @@ Per-source mute/boost.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C02-18
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C02-18
 - **Alias:** C02-18
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

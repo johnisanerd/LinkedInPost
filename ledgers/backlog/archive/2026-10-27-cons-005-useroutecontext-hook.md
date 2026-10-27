@@ -27,7 +27,7 @@ useRouteContext hook.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C01-5
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C01-5
 - **Alias:** C01-5
 - **Original tag:** MED (mapped to P2)
 - **Current status:** open

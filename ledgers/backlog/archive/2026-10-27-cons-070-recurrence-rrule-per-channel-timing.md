@@ -26,7 +26,7 @@ Recurrence/rrule, per-channel timing.
 
 ## Evidence and reproduction
 
-- **Source:** launch-release/findings/raw/existing-reviews.md section 1, row C05-13
+- **Source:** docs/launch-readiness/findings/raw/existing-reviews.md section 1, row C05-13
 - **Alias:** C05-13
 - **Original tag:** HIGH (mapped to P1)
 - **Current status:** n-a
