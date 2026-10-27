@@ -1,0 +1,2030 @@
+{
+ "AC-001": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence FeedPage.tsx; /trending redirects dashboard/index.tsx:899-900"
+ ],
+ "AC-002": [
+  "open",
+  "read-only: partial; still open in code (not REST /api/interest-groups; design differs, functionally present); no LR item covers it"
+ ],
+ "AC-003": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker index.ts:714-717,804-807"
+ ],
+ "AC-004": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-003 (see LEDGER.md Frozen); see C03-7"
+ ],
+ "AC-005": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence ClipsDock.tsx:158,332-367"
+ ],
+ "AC-006": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-003 (see LEDGER.md Frozen); drag-into-editor insertion not found"
+ ],
+ "AC-007": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "AC-008": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (no test seen for 80%); needs a check"
+ ],
+ "AC-009": [
+  "open",
+  "read-only: partial; still open in code (worker/src/engine/workflows/definitions/trend-commentary.ts; __tests__/contentPostTypesPlaybook.spec.test.ts); no LR item covers it"
+ ],
+ "AC-010": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "AC-011": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker engine/types.ts, draft-generator.ts; frontend VariantCarousel.tsx"
+ ],
+ "AC-012": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not run); needs a check"
+ ],
+ "AC-013": [
+  "open",
+  "read-only: partial; still open in code (UI wording not traced); no LR item covers it"
+ ],
+ "AC-014": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence useReviewFlowActions.ts:~357-372 (compare onConfirm sets editor text)"
+ ],
+ "AC-015": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "AC-016": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "AC-017": [
+  "open",
+  "read-only: still open in code (DashboardSettingsDrawer.tsx 2251 lines; FeedPage.tsx 1490; EditorSidebar large); covered by LR-179"
+ ],
+ "CONS-001": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); no group headers"
+ ],
+ "CONS-002": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-001 (see LEDGER.md Frozen); only on topic-review routes via headerOverride, not derived from location"
+ ],
+ "CONS-003": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-001 (see LEDGER.md Frozen); ? key opens shortcuts overlay; no visible header button, no workflows content"
+ ],
+ "CONS-004": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); none"
+ ],
+ "CONS-005": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); grep: no hit"
+ ],
+ "CONS-006": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); grep: no hit"
+ ],
+ "CONS-007": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-008": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (mechanism exists (post-auth return path); no audit seen); needs a check"
+ ],
+ "CONS-009": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); Cmd-K only focuses settings nav search (DashboardSettingsDrawer.tsx:1225)"
+ ],
+ "CONS-010": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); admin gating still inline"
+ ],
+ "CONS-011": [
+  "open",
+  "read-only: still open in code (touch users cannot vote/clip from stream; 26px targets (<40px AC)); covered by LR-095"
+ ],
+ "CONS-012": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence FeedArticleCard.tsx:76-83"
+ ],
+ "CONS-013": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-002 (see LEDGER.md Frozen); cards are text-only"
+ ],
+ "CONS-014": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence FeedArticleCard.tsx:~69 line-clamp-2 + content fallback"
+ ],
+ "CONS-015": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-002 (see LEDGER.md Frozen); no \"search description\" toggle"
+ ],
+ "CONS-016": [
+  "open",
+  "read-only: partial; still open in code (FeedArticleCard.tsx:6-10,86 hash-colour square); no LR item covers it"
+ ],
+ "CONS-017": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence features/feed/hooks/useFeedKeyboard.ts:38; FeedPage.tsx:586-596"
+ ],
+ "CONS-018": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-002 (see LEDGER.md Frozen); skeleton only on initial load; \"Load more\" fallback exists :206"
+ ],
+ "CONS-019": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-002 (see LEDGER.md Frozen); \"For You\" = hide downvoted only (:530); no per-topic pill beyond interest groups"
+ ],
+ "CONS-020": [
+  "open",
+  "read-only: still open in code (rail simply disappears on tablet/phone); covered by LR-095"
+ ],
+ "CONS-021": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-002 (see LEDGER.md Frozen); FeedLeftPanel.tsx (single column)"
+ ],
+ "CONS-022": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence FeedPage.tsx:1375-1405 (480px sheet, asSheet)"
+ ],
+ "CONS-023": [
+  "open",
+  "read-only: still open in code (Top10 also uses desc length + recency); covered by LR-174"
+ ],
+ "CONS-024": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-002 (see LEDGER.md Frozen); none"
+ ],
+ "CONS-025": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-002 (see LEDGER.md Frozen); words/topics clickable (FeedPage.tsx:1363-1364)"
+ ],
+ "CONS-026": [
+  "open",
+  "read-only: still open in code (no-op button shipped (see NEW-1)); covered by LR-173"
+ ],
+ "CONS-027": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-002 (see LEDGER.md Frozen); FeedArticleCard.tsx"
+ ],
+ "CONS-028": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-002 (see LEDGER.md Frozen); "
+ ],
+ "CONS-029": [
+  "open",
+  "read-only: partial; still open in code (delete still via right-click or hover buttons); covered by LR-175"
+ ],
+ "CONS-030": [
+  "open",
+  "read-only: partial; still open in code (no success toast on drop); covered by LR-175"
+ ],
+ "CONS-031": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence ClipsDock.tsx:133-145"
+ ],
+ "CONS-032": [
+  "open",
+  "read-only: partial; still open in code (still always-on right strip); no LR item covers it"
+ ],
+ "CONS-033": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-003 (see LEDGER.md Frozen); ClipsDock.tsx"
+ ],
+ "CONS-034": [
+  "open",
+  "read-only: still open in code (touch users cannot assign); covered by LR-095"
+ ],
+ "CONS-035": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-003 (see LEDGER.md Frozen); cons doc says toast was added; toast exists (SelectionClipper.tsx:19-23) but card wiring absent"
+ ],
+ "CONS-036": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-004 (see LEDGER.md Frozen); ArticleDetailView.tsx:397,404 <details>; no lightbox grep hit"
+ ],
+ "CONS-037": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-004 (see LEDGER.md Frozen); ArticleDetailView.tsx:134,472-557 (Opinion/Perspectives/Connection/Debate tabs)"
+ ],
+ "CONS-038": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-003 (see LEDGER.md Frozen); grep: none"
+ ],
+ "CONS-039": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (cache not checked); needs a check"
+ ],
+ "CONS-040": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence components/dashboard/tabs/DashboardQueue.tsx:~852,896,925"
+ ],
+ "CONS-041": [
+  "open",
+  "read-only: still open in code (onboarding Tour copy at :435 claims \"channel pill shows where a post will publish\" - it does not); covered by LR-097"
+ ],
+ "CONS-042": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence components/ui/StatusPill.tsx; DashboardQueue.tsx:20,768"
+ ],
+ "CONS-043": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence DashboardQueue.tsx:431-435,585-588"
+ ],
+ "CONS-044": [
+  "open",
+  "read-only: still open in code (features/add-topic/AddTopicPage.tsx:296 onSaved only; no toast system exists in app); covered by LR-183"
+ ],
+ "CONS-045": [
+  "open",
+  "read-only: partial; still open in code (no asterisk on title); covered by LR-178"
+ ],
+ "CONS-046": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (AddTopicPage.tsx:~660-691); needs a check"
+ ],
+ "CONS-047": [
+  "open",
+  "read-only: still open in code (AddTopicPage.tsx); no LR item covers it"
+ ],
+ "CONS-048": [
+  "open",
+  "read-only: still open in code (grep: none in AddTopicPage); no LR item covers it"
+ ],
+ "CONS-049": [
+  "open",
+  "read-only: still open in code (still Trending/Research/Analysis); no LR item covers it"
+ ],
+ "CONS-050": [
+  "open",
+  "read-only: partial; still open in code (no pulsing recording dot verified); no LR item covers it"
+ ],
+ "CONS-051": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence DashboardQueue.tsx:161,187-220 (dialog owned by queue)"
+ ],
+ "CONS-052": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-053": [
+  "open",
+  "read-only: still open in code (grep: none); no LR item covers it"
+ ],
+ "CONS-054": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-055": [
+  "open",
+  "read-only: partial; still open in code (DashboardQueue.tsx:146-149,755-760 (checkbox, bulk channel/schedule dialogs)); no LR item covers it"
+ ],
+ "CONS-056": [
+  "open",
+  "read-only: partial; still open in code (tooltip does not say \"creates new draft\"; no withdraw); covered by LR-178"
+ ],
+ "CONS-057": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-058": [
+  "open",
+  "read-only: still open in code (editor still has bare input); covered by LR-169"
+ ],
+ "CONS-059": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence components/dashboard/components/TopicDetailPanel.tsx:369"
+ ],
+ "CONS-060": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence content-schedule-calendar/ContentScheduleCalendar.tsx:367"
+ ],
+ "CONS-061": [
+  "open",
+  "read-only: still open in code (editor posts UTC string (useReviewFlowActions.ts:690-697)); covered by LR-031"
+ ],
+ "CONS-062": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (EditorScreen.tsx); needs a check"
+ ],
+ "CONS-063": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (content-schedule-calendar/EventDetailAndEdit.tsx); needs a check"
+ ],
+ "CONS-064": [
+  "open",
+  "read-only: partial; still open in code (no countdown); covered by LR-169"
+ ],
+ "CONS-065": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-066": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence components/channels (imported DashboardDelivery.tsx:7, TopicsRightRail.tsx:6,258,390)"
+ ],
+ "CONS-067": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-005 (see LEDGER.md Frozen); single channel only"
+ ],
+ "CONS-068": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-006 (see LEDGER.md Frozen); grep ConnectionHealth/testConnection: none"
+ ],
+ "CONS-069": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-070": [
+  "n-a",
+  "read-only: not applicable now (future phase)"
+ ],
+ "CONS-071": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-008 (see LEDGER.md Frozen); now 5 base tabs (+Email) not 3 groups"
+ ],
+ "CONS-072": [
+  "open",
+  "read-only: still open in code (EditorSidebar.tsx:25-35,360-400 (only label + level pill)); covered by LR-170"
+ ],
+ "CONS-073": [
+  "open",
+  "read-only: still open in code (features/review/components/ReviewDialogs.tsx:60,95,110 all \"Discard current editor changes?\"); covered by LR-089"
+ ],
+ "CONS-074": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence ReviewDialogs.tsx:43 \"Restore previous draft?\"; useReviewFlowState.ts:645 autoSaveTrigger"
+ ],
+ "CONS-075": [
+  "open",
+  "read-only: still open in code (leaving editor with unsaved edits is unguarded at browser level); covered by LR-089"
+ ],
+ "CONS-076": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (variant/components/VariantCarousel.tsx); needs a check"
+ ],
+ "CONS-077": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (EditorScreen.tsx:24-29); needs a check"
+ ],
+ "CONS-078": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-008 (see LEDGER.md Frozen); EditorScreen.tsx:234,244 (sidebar 58%, editor 42%)"
+ ],
+ "CONS-079": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-008 (see LEDGER.md Frozen); review-editor/components/VersionHistoryStrip.tsx"
+ ],
+ "CONS-080": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-008 (see LEDGER.md Frozen); ReviewDialogs.tsx:133 compare preview"
+ ],
+ "CONS-081": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-008 (see LEDGER.md Frozen); not verified"
+ ],
+ "CONS-082": [
+  "open",
+  "read-only: partial; still open in code (editor footer \"Publish to X\" calls handlePublishNow directly (EditorScreen.tsx:~393; useReviewFlowActions.ts:~700) - no confirm); covered by LR-026"
+ ],
+ "CONS-083": [
+  "open",
+  "read-only: still open in code (USE-CASES claims link; not present); covered by LR-088"
+ ],
+ "CONS-084": [
+  "open",
+  "read-only: still open in code (EditorScreen.tsx:~397 (button just disabled with tooltip)); covered by LR-169"
+ ],
+ "CONS-085": [
+  "open",
+  "read-only: still open in code (EditorScreen.tsx:340-430 (Approve, Save edits, Publish, Save draft all present)); covered by LR-026"
+ ],
+ "CONS-086": [
+  "open",
+  "read-only: still open in code (ScheduledPublishBanner.tsx); covered by LR-169"
+ ],
+ "CONS-087": [
+  "open",
+  "read-only: still open in code (EditorScreen.tsx:357,382 handleApprove still in footer); covered by LR-026"
+ ],
+ "CONS-088": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-007 (see LEDGER.md Frozen); grep revoke/undo send: none"
+ ],
+ "CONS-089": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-005 (see LEDGER.md Frozen); depends C05-10"
+ ],
+ "CONS-090": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence campaign/components/newsletter/NewsletterConfigDrawer.tsx:44-51,97-101,192-200"
+ ],
+ "CONS-091": [
+  "open",
+  "read-only: partial; still open in code (no char counts verified); covered by LR-176"
+ ],
+ "CONS-092": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (doc ticks it [x]; not confirmed in code); needs a check"
+ ],
+ "CONS-093": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (doc ticks [x]; not confirmed); needs a check"
+ ],
+ "CONS-094": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-009 (see LEDGER.md Frozen); NewsletterConfigDrawer.tsx (no \"Tone:\" hit)"
+ ],
+ "CONS-095": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence NewsletterConfigDrawer.tsx:187,304-308"
+ ],
+ "CONS-096": [
+  "open",
+  "read-only: still open in code (doc itself leaves \"[ ] Subject template variables work end-to-end\"); covered by LR-176"
+ ],
+ "CONS-097": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-009 (see LEDGER.md Frozen); still drawer"
+ ],
+ "CONS-098": [
+  "frozen",
+  "read-only: partial; real gap, frozen as FRZ-009 (see LEDGER.md Frozen); still drawer-based"
+ ],
+ "CONS-099": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-009 (see LEDGER.md Frozen); grep: none"
+ ],
+ "CONS-100": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-101": [
+  "n-a",
+  "read-only: not applicable now (future phase)"
+ ],
+ "CONS-102": [
+  "open",
+  "read-only: partial; still open in code (still a monolith component; not split per section); covered by LR-179"
+ ],
+ "CONS-103": [
+  "open",
+  "read-only: still open in code (grep: none); covered by LR-179"
+ ],
+ "CONS-104": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence DashboardSettingsDrawer.tsx:1225-1228,1305"
+ ],
+ "CONS-105": [
+  "open",
+  "read-only: partial; still open in code (no in-app route-change guard; save only for admin (:1282)); covered by LR-179"
+ ],
+ "CONS-106": [
+  "open",
+  "read-only: still open in code (descriptions exist for a few model lists only); covered by LR-179"
+ ],
+ "CONS-107": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-006 (see LEDGER.md Frozen); highest support-cost item"
+ ],
+ "CONS-108": [
+  "open",
+  "read-only: partial; still open in code (DashboardSettingsDrawer.tsx:481-492 shows meta.description); no LR item covers it"
+ ],
+ "CONS-109": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence DashboardSettingsDrawer.tsx ~L1317-1390"
+ ],
+ "CONS-110": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence features/setup-wizard/SetupWizard.tsx:91-105"
+ ],
+ "CONS-111": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence SetupWizard.tsx:77-89 (\"Trending Sources\",\"Image Generation\",\"Voice Transcription\")"
+ ],
+ "CONS-112": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence SetupWizard.tsx:538-636; EnvVarsStep.tsx:438"
+ ],
+ "CONS-113": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence EnvVarsStep.tsx:456-532 (groups + links)"
+ ],
+ "CONS-114": [
+  "open",
+  "read-only: still open in code (useDashboardSettings.ts; no regex hits); covered by LR-179"
+ ],
+ "CONS-115": [
+  "open",
+  "read-only: still open in code (6 channel sections still copy/paste); covered by LR-179"
+ ],
+ "CONS-116": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-006 (see LEDGER.md Frozen); pages/connections exists (OAuth cards) but no last-error/retry"
+ ],
+ "CONS-117": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (SetupWizard.tsx:28,64); needs a check"
+ ],
+ "CONS-118": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); no LR item covers it"
+ ],
+ "CONS-119": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence EditorSidebar.tsx:417; GenerationPanel.tsx:312 (EnrichmentProgressPanel)"
+ ],
+ "CONS-120": [
+  "open",
+  "read-only: still open in code (EnrichmentProgressPanel.tsx (no failed/rerun hits)); covered by LR-171"
+ ],
+ "CONS-121": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (features/generation/nodeProgressLabels.ts); needs a check"
+ ],
+ "CONS-122": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-013 (see LEDGER.md Frozen); AppSidebar.tsx:269 admin-only"
+ ],
+ "CONS-123": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-013 (see LEDGER.md Frozen); pages/EnrichmentFlowPage.tsx"
+ ],
+ "CONS-124": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-013 (see LEDGER.md Frozen); EnrichmentFlowPage.tsx"
+ ],
+ "CONS-125": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "CONS-126": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-010 (see LEDGER.md Frozen); worker index.ts: no pick-logging case"
+ ],
+ "CONS-127": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker index.ts:1812 setArticleFeedback, :1823 get; FeedPage.tsx:1280"
+ ],
+ "CONS-128": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-010 (see LEDGER.md Frozen); grep: none"
+ ],
+ "CONS-129": [
+  "open",
+  "read-only: partial; still open in code (GenerationPanel diff not verified); no LR item covers it"
+ ],
+ "CONS-130": [
+  "open",
+  "read-only: still open in code (native prompt; silently returns on invalid input); covered by LR-100"
+ ],
+ "CONS-131": [
+  "open",
+  "read-only: still open in code (AdminPanel.tsx:172-... only Approve (:69); no deny endpoint in worker/service); covered by LR-100"
+ ],
+ "CONS-132": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-011 (see LEDGER.md Frozen); AdminPanel.tsx (278 lines, none)"
+ ],
+ "CONS-133": [
+  "open",
+  "read-only: still open in code (leaks infra detail to end users); covered by LR-110"
+ ],
+ "CONS-134": [
+  "open",
+  "read-only: still open in code (grep online/offline: none); covered by LR-111"
+ ],
+ "CONS-135": [
+  "open",
+  "read-only: partial; still open in code (dead code); covered by LR-111"
+ ],
+ "CONS-136": [
+  "open",
+  "read-only: still open in code (components/useAlert.ts / AlertProvider.tsx (modal alert, no actions)); covered by LR-111"
+ ],
+ "CONS-137": [
+  "open",
+  "read-only: still open in code (services/backendApi.ts: no backoff/Retry-After); covered by LR-111"
+ ],
+ "CONS-138": [
+  "frozen",
+  "read-only: real gap, frozen as FRZ-012 (see LEDGER.md Frozen); grep from 'zod' in frontend: none"
+ ],
+ "CONS-139": [
+  "open",
+  "read-only: partial; still open in code (CampaignPage.tsx:852 overflow-x-auto; feed rail hidden (C02-10); settings drawer not verified); covered by LR-095"
+ ],
+ "CONS-140": [
+  "open",
+  "read-only: partial; still open in code (no audit evidence); covered by LR-177"
+ ],
+ "CONS-141": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence App.tsx:126; components/HelpOverlay.tsx:4-9; hooks/useGlobalShortcuts.ts"
+ ],
+ "CONS-142": [
+  "n-a",
+  "read-only: not applicable now (future phase)"
+ ],
+ "CONS-143": [
+  "open",
+  "read-only: partial; still open in code (newsletter tour at NewsletterTab.tsx:229); no LR item covers it"
+ ],
+ "CONS-144": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence campaign/CampaignPage.tsx:70,591-603 (Prompt/File/Paste)"
+ ],
+ "CONS-145": [
+  "open",
+  "read-only: still open in code (audits/05); covered by LR-165"
+ ],
+ "CONS-146": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence CampaignPage.tsx:247-251 localStorage; :469 undo text"
+ ],
+ "CONS-147": [
+  "open",
+  "read-only: still open in code (audits/05); covered by LR-165"
+ ],
+ "CONS-148": [
+  "n-a",
+  "read-only: not applicable now (future phase, not itemised)"
+ ],
+ "FR-001": [
+  "n-a",
+  "read-only: not applicable now (do not use as source of truth)"
+ ],
+ "FR-002": [
+  "open",
+  "read-only: still open in code (same as C02/C03); covered by LR-163"
+ ],
+ "FR-003": [
+  "n-a",
+  "read-only: not applicable now (nothing to reconcile; not product-user-facing)"
+ ],
+ "FRZ-001": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-002": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-003": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-004": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-005": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-006": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-007": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-008": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-009": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-010": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-011": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-012": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-013": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "FRZ-014": [
+  "frozen",
+  "read-only: ledger Frozen section; alternative named, no code executed"
+ ],
+ "GAP-001": [
+  "open",
+  "read-only: checked that launch-release/findings/EXEC-RESULTS.md is absent from the directory listing."
+ ],
+ "GAP-002": [
+  "open",
+  "read-only: checked that findings/raw/gen-pkg.md exists and holds the only generation-worker items."
+ ],
+ "GAP-003": [
+  "open",
+  "read-only: checked that tests/ and tests-e2e/ exist at the repo root; their contents were not read."
+ ],
+ "GAP-004": [
+  "open",
+  "read-only: checked that .gitmodules, video-pipeline/direction/skills/LEDGER.yaml and docs/plans/video-pipeline/BACKLOG.md exist."
+ ],
+ "GAP-005": [
+  "open",
+  "read-only: checked that the three directories exist."
+ ],
+ "GAP-006": [
+  "open",
+  "read-only: git diff of worker/ shows one changed line, a comment path in postTypesPlaybook.test.ts."
+ ],
+ "GAP-007": [
+  "open",
+  "read-only: AGENTS.md line 'Never use git worktrees; work directly on main branch' confirmed."
+ ],
+ "GAP-008": [
+  "open",
+  "read-only: directory listing of ~/Documents/GitHub shows no 'setup' repo; the two named template paths exist."
+ ],
+ "GAP-009": [
+  "open",
+  "read-only: taken from the coordinator's session notes; not re-checked here (no network)."
+ ],
+ "GAP-010": [
+  "open",
+  "read-only: EXISTING-REVIEWS.md carries these rows with status investigate."
+ ],
+ "GAP-011": [
+  "open",
+  "read-only: no execution evidence exists in launch-release/."
+ ],
+ "GAP-012": [
+  "open",
+  "read-only: LEDGER.md states 224 raw IDs merged with none missing (script-checked); duplicate merging is not human-checked."
+ ],
+ "IDEA-001": [
+  "open",
+  "read-only: setup/cli.py read: 40 lines, only parse_args() (lines 9-40); no action code."
+ ],
+ "IDEA-002": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-003": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-004": [
+  "accepted",
+  "read-only: dev-only script (mutation_tester.py at repo root); accepted as out of scope for launch."
+ ],
+ "IDEA-005": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-006": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-007": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-008": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-009": [
+  "open",
+  "read-only: listed pending or blocked in the legacy tracker; not re-run here"
+ ],
+ "IDEA-010": [
+  "accepted",
+  "read-only: moot because setup/cli.py is an inert scaffold (see IDEA-001)."
+ ],
+ "IDEA-011": [
+  "open",
+  "read-only: bin/journey-health read (lines 9, 28): hard-coded path and /proc/net/tcp check."
+ ],
+ "IDEA-012": [
+  "open",
+  "read-only: grep for 'audit trail', 'auditLog', 'audit_log' in worker/src returned no files."
+ ],
+ "IDEA-013": [
+  "accepted",
+  "read-only: design document with no launch-blocking requirement; accepted as post-launch guidance."
+ ],
+ "IDEA-014": [
+  "accepted",
+  "read-only: new capability, not a defect; accepted as out of scope for launch."
+ ],
+ "INV-001": [
+  "investigate",
+  "read-only: code says FEB-002 is right and FEA-027 is half wrong. Worker routes /api/clips GET/POST and /api/feed/items POST exist (worker/src/index.ts:714-717 and 804-807). backendApi.ts:827,844,867,884 read globalThis.VITE_WORKER_URL; grep over frontend/src and frontend/vite.config.ts finds no assignment outside backendApi.ts, and vite.config.ts has no proxy block. FEA-027's other claim holds: /v1/variants/save and /v1/clips are not routed (worker/src/index.ts only routes /v1/image-gen-catalog under /v1/). Item kept: not run live. Covered by LR-027."
+ ],
+ "INV-002": [
+  "investigate",
+  "read-only: code reads candidates[0].usageMetadata at worker/src/llm/providers/gemini.ts:115 and 177 and declares it under candidates in worker/src/generation/types.ts:139. The Gemini API shape was not checked here (no network). Covered by LR-061."
+ ],
+ "INV-003": [
+  "investigate",
+  "read-only: code sends commentary: request.text unescaped at worker/src/integrations/linkedin/index.ts:60-63. LinkedIn API behaviour was not checked here. Covered by LR-152."
+ ],
+ "INV-004": [
+  "investigate",
+  "read-only: code confirms the fallback: resolveAdminEmailAllowlist returns [DEFAULT_ADMIN_EMAIL = '99pratyush@gmail.com'] when ADMIN_EMAILS is empty (worker/src/index.ts:3020-3027). The code comment calls it intentional ('never treat every user as admin'). Ledger follows the finding severity (LR-134, P2); the owner decides the severity."
+ ],
+ "INV-005": [
+  "investigate",
+  "read-only: code confirms checkAuth returns true when WORKER_SHARED_SECRET is empty (generation-worker/src/index.ts:41-45). Whether any supported deploy path leaves it empty was not traced. Ledger uses P1 (LR-050); the owner decides."
+ ],
+ "INV-006": [
+  "investigate",
+  "read-only: code shows the pending wall at frontend/src/components/dashboard/index.tsx:581-595 for `!session.config.spreadsheetId && !session.isAdmin`. Whether it also covers /connections was not traced. Ledger follows FEB-003 severity (LR-072, P1)."
+ ],
+ "INV-007": [
+  "investigate",
+  "read-only: not re-read in this pass beyond the ledger entry; raw WKB-031 evidence says the key is never written. Ledger follows WKB-031 severity (LR-137, P2)."
+ ],
+ "INV-008": [
+  "investigate",
+  "read-only: code has the mock path (useTrending.ts:280-292); the label and the flag source were not checked. Covered by LR-094."
+ ],
+ "INV-009": [
+  "investigate",
+  "read-only: code: worker/src/modes/saas/admin.ts:27-34 approve takes the path segment as userId and calls setUserStatus and resolveAccessRequest with it. What users.id holds was not checked. Covered by LR-101."
+ ],
+ "INV-010": [
+  "investigate",
+  "read-only: migration file exists (worker/migrations/0010_pipeline_user_primary.sql); behaviour on real data not run. Covered by LR-147."
+ ],
+ "INV-011": [
+  "investigate",
+  "read-only: API facts come from the raw review and were not checked here. Covered by LR-149."
+ ],
+ "INV-012": [
+  "investigate",
+  "read-only: grep found no length limits in review or editor code per the raw review; the worker side was not checked. Covered by LR-159."
+ ],
+ "INV-013": [
+  "investigate",
+  "read-only: code has the pattern at useReviewFlowActions.ts:344-357 (newCard assigned in the updater, then returned). Whether React runs it in time was not tested. Covered by LR-168."
+ ],
+ "INV-014": [
+  "investigate",
+  "read-only: code returns Response.json at worker/src/index.ts:1875-1877; the dispatcher's handling of Response was not traced. Covered by LR-187."
+ ],
+ "INV-015": [
+  "investigate",
+  "read-only: not re-read in this pass; the raw review and WKB-044 disagree on whether the engine runs. Covered by LR-191."
+ ],
+ "INV-016": [
+  "investigate",
+  "read-only: depends on current Google model availability, not checkable offline. Covered by LR-193."
+ ],
+ "INV-017": [
+  "investigate",
+  "read-only: raw item is marked hypothesis; merged into LR-083, which says confirmed-by-reading. Not run. Covered by LR-083."
+ ],
+ "INV-018": [
+  "investigate",
+  "read-only: code: worker/src/index.ts:192 types DEPLOYMENT_MODE and lines 1004,1574,1586,2532 default it to 'saas'; wrangler.jsonc has no DEPLOYMENT_MODE hit in the grep. Wizard write path not re-read. Covered by LR-051."
+ ],
+ "INV-019": [
+  "investigate",
+  "read-only: not run; raw item flags the worker-side behaviour as a hypothesis. Covered by LR-056."
+ ],
+ "INV-020": [
+  "investigate",
+  "read-only: ARCH-AUDIT marks it hypothesis, not confirmed; not run. Covered by LR-070."
+ ],
+ "LR-001": [
+  "open",
+  "read-only: static reading of .github/workflows/deploy-pages.yml:51-52"
+ ],
+ "LR-002": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/index.tsx:521-580"
+ ],
+ "LR-003": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/_shared/selector.ts:170-178"
+ ],
+ "LR-004": [
+  "open",
+  "read-only: static reading of generation-worker/src/players/clips.ts:8-14,32"
+ ],
+ "LR-005": [
+  "open",
+  "read-only: static reading of setup/worker_config.py:439"
+ ],
+ "LR-006": [
+  "open",
+  "read-only: static reading of setup/worker_config.py:115-122"
+ ],
+ "LR-007": [
+  "open",
+  "read-only: static reading of frontend/server/setupWizard.js:595"
+ ],
+ "LR-008": [
+  "open",
+  "read-only: static reading of frontend/server/setupWizard.js:270-310"
+ ],
+ "LR-009": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:136 (type only)"
+ ],
+ "LR-010": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/handlers.ts:69,83,136,189"
+ ],
+ "LR-011": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/scheduler.ts:91-101"
+ ],
+ "LR-012": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:4986-5011 (LinkedIn shared-token fallback)"
+ ],
+ "LR-013": [
+  "open",
+  "read-only: static reading of worker/src/scheduled-publish/ScheduledPublishAlarm.ts:36-44"
+ ],
+ "LR-014": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:4756-4783"
+ ],
+ "LR-015": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:2819-2826"
+ ],
+ "LR-016": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:877-882"
+ ],
+ "LR-017": [
+  "open",
+  "read-only: static reading of frontend/vite.config.ts:78"
+ ],
+ "LR-018": [
+  "open",
+  "read-only: static reading of wrangler.jsonc:3-10"
+ ],
+ "LR-019": [
+  "open",
+  "read-only: static reading of worker/wrangler.jsonc:10-20,52-65"
+ ],
+ "LR-020": [
+  "open",
+  "read-only: static reading of generation-worker/wrangler.jsonc:14-21"
+ ],
+ "LR-021": [
+  "open",
+  "read-only: static reading of frontend/src/features/automations/LinkedInSetupGuide.tsx:33"
+ ],
+ "LR-022": [
+  "open",
+  "read-only: static reading of frontend/src/features/campaign/CampaignPage.tsx:497-515"
+ ],
+ "LR-023": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowState.ts:65-81"
+ ],
+ "LR-024": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowState.ts:258,273-282,615-679"
+ ],
+ "LR-025": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/components/TopicPostPreviewCard.tsx:122,210"
+ ],
+ "LR-026": [
+  "open",
+  "read-only: static reading of frontend/src/features/review-editor/screens/EditorScreen.tsx:340-430"
+ ],
+ "LR-027": [
+  "open",
+  "read-only: static reading of frontend/src/services/backendApi.ts:827,844,867,884"
+ ],
+ "LR-028": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/FeedPage.tsx:184-233,280-296"
+ ],
+ "LR-029": [
+  "open",
+  "read-only: static reading of frontend/src/features/campaign/components/newsletter/NewsletterDashboard.tsx:229-260"
+ ],
+ "LR-030": [
+  "open",
+  "read-only: static reading of frontend/src/App.tsx:449-465"
+ ],
+ "LR-031": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowActions.ts:632-641"
+ ],
+ "LR-032": [
+  "open",
+  "read-only: static reading of frontend/src/features/scheduled-publish/usePendingScheduledPublish.ts:15,17-28"
+ ],
+ "LR-033": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/FeedPage.tsx:168-173,308-312"
+ ],
+ "LR-034": [
+  "open",
+  "read-only: static reading of frontend/src/App.tsx:397-418,432-447"
+ ],
+ "LR-035": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/image-generation/providers/gemini.ts:46-47"
+ ],
+ "LR-036": [
+  "open",
+  "read-only: static reading of generation-worker/src/pipeline.ts:240-272"
+ ],
+ "LR-037": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/_shared/creator.ts:17-24,184"
+ ],
+ "LR-038": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/_shared/creator.ts:187-212"
+ ],
+ "LR-039": [
+  "open",
+  "read-only: static reading of packages/researcher/src/providers/rss.ts:81-94"
+ ],
+ "LR-040": [
+  "open",
+  "read-only: static reading of start.sh:176-178,204"
+ ],
+ "LR-041": [
+  "open",
+  "read-only: static reading of setup/worker_config.py:282"
+ ],
+ "LR-042": [
+  "open",
+  "read-only: static reading of setup.py:55"
+ ],
+ "LR-043": [
+  "open",
+  "read-only: static reading of setup/cloudflare.py:575-586"
+ ],
+ "LR-044": [
+  "open",
+  "read-only: static reading of .env.example:9-10,22-23,32-33"
+ ],
+ "LR-045": [
+  "open",
+  "read-only: static reading of setup/worker_config.py:144-207"
+ ],
+ "LR-046": [
+  "open",
+  "read-only: static reading of setup/wizard/steps/google.py:72"
+ ],
+ "LR-047": [
+  "open",
+  "read-only: static reading of setup/wizard/steps/cloudflare.py:75-78"
+ ],
+ "LR-048": [
+  "open",
+  "read-only: static reading of setup/wizard/steps/verify.py:15-32,20-24,46-47,56-58"
+ ],
+ "LR-049": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:6313-6318"
+ ],
+ "LR-050": [
+  "open",
+  "read-only: static reading of generation-worker/src/index.ts:41-44,18-24"
+ ],
+ "LR-051": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:1004,1574,1586,2532"
+ ],
+ "LR-052": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:3138-3177 vs 4659-4715"
+ ],
+ "LR-053": [
+  "open",
+  "read-only: static reading of worker/wrangler.jsonc:17-21"
+ ],
+ "LR-054": [
+  "open",
+  "read-only: static reading of worker/src/persistence/pipeline-db/pipeline.ts (INSERT_PIPELINE_ROW_SQL)"
+ ],
+ "LR-055": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:1632-1651"
+ ],
+ "LR-056": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/components/TopicPostPreviewCard.tsx:62-66"
+ ],
+ "LR-057": [
+  "open",
+  "read-only: static reading of worker/src/generation/normalize.ts:19-76"
+ ],
+ "LR-058": [
+  "open",
+  "read-only: static reading of worker/src/integrations/_shared/fetchWithRetry.ts:55-77"
+ ],
+ "LR-059": [
+  "open",
+  "read-only: static reading of worker/src/integrations/gmail/index.ts:133-137"
+ ],
+ "LR-060": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:835-1010 (no checkTokenBudget)"
+ ],
+ "LR-061": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/src/llm/providers/gemini.ts:115,177; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-062": [
+  "open",
+  "read-only: static reading of worker/src/integrations/media.ts:12-16,28-41"
+ ],
+ "LR-063": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/handlers.ts:63-90"
+ ],
+ "LR-064": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/emailRenderer.ts:80-103,117-130"
+ ],
+ "LR-065": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/emailRenderer.ts:202,206,261-262"
+ ],
+ "LR-066": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/draftCreator.ts:242-291"
+ ],
+ "LR-067": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:4842-4845,5102-5109"
+ ],
+ "LR-068": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:5117-5133,4004-4031"
+ ],
+ "LR-069": [
+  "open",
+  "read-only: static reading of worker/src/researcher/providers/rss.ts:28-35,60-67"
+ ],
+ "LR-070": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:4824-4869"
+ ],
+ "LR-071": [
+  "open",
+  "read-only: static reading of worker/src/scheduled-publish/durablePublishScheduler.ts:11-13"
+ ],
+ "LR-072": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/index.tsx:581-595"
+ ],
+ "LR-073": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:2289-2299,5309-5362"
+ ],
+ "LR-074": [
+  "open",
+  "read-only: static reading of worker/src/persistence/pipeline-db/pipeline.ts (savePatternMetadata, listTemplateAssignments)"
+ ],
+ "LR-075": [
+  "open",
+  "read-only: static reading of .github/workflows/youtube-comment-poll.yml:13-31"
+ ],
+ "LR-076": [
+  "open",
+  "read-only: static reading of .github/workflows/deploy-workers.yml:12-14,38-52,74-88"
+ ],
+ "LR-077": [
+  "open",
+  "read-only: static reading of .github/workflows/deploy-workers.yml"
+ ],
+ "LR-078": [
+  "open",
+  "read-only: static reading of worker/wrangler.jsonc:100"
+ ],
+ "LR-079": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:3276,3457,3108"
+ ],
+ "LR-080": [
+  "open",
+  "read-only: static reading of frontend/src/features/campaign/CampaignPage.tsx:463-493"
+ ],
+ "LR-081": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowState.ts:682-690"
+ ],
+ "LR-082": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/hooks/useDashboardQueue.ts:602-750"
+ ],
+ "LR-083": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowActions.ts:229-274"
+ ],
+ "LR-084": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowState.ts:241,264-268"
+ ],
+ "LR-085": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowActions.ts:416-460"
+ ],
+ "LR-086": [
+  "open",
+  "read-only: static reading of frontend/src/features/topic-navigation/screens/TopicEditorPage.tsx"
+ ],
+ "LR-087": [
+  "open",
+  "read-only: static reading of frontend/src/features/news-research/ResearcherPanel.tsx:87-120"
+ ],
+ "LR-088": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/hooks/useDashboardQueue.ts:587"
+ ],
+ "LR-089": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/components/ReviewDialogs.tsx:60,95,110"
+ ],
+ "LR-090": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/FeedPage.tsx:235-250,330-375"
+ ],
+ "LR-091": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/FeedPage.tsx:328-378"
+ ],
+ "LR-092": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/ArticleDetailView.tsx:150-176"
+ ],
+ "LR-093": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/DraftContextView.tsx:531-545"
+ ],
+ "LR-094": [
+  "investigate",
+  "read-only: hypothesis from static reading of frontend/src/features/trending/hooks/useTrending.ts:213-225,280-292; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-095": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/FeedArticleCard.tsx:97"
+ ],
+ "LR-096": [
+  "open",
+  "read-only: static reading of frontend/src/features/onboarding/OnboardingModal.tsx:30-33"
+ ],
+ "LR-097": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/tabs/DashboardQueue.tsx:435,768"
+ ],
+ "LR-098": [
+  "open",
+  "read-only: static reading of frontend/src/services/backendApi.ts:1612-1622"
+ ],
+ "LR-099": [
+  "open",
+  "read-only: static reading of frontend/src/pages/PricingPage.tsx:50-160"
+ ],
+ "LR-100": [
+  "open",
+  "read-only: static reading of frontend/src/features/saas/AdminPanel.tsx:63-81,79,172"
+ ],
+ "LR-101": [
+  "investigate",
+  "read-only: hypothesis from static reading of frontend/src/features/saas/AdminPanel.tsx (handleApprove(r.email)); confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-102": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/index.tsx:496-580"
+ ],
+ "LR-103": [
+  "open",
+  "read-only: static reading of frontend/src/services/backendApi.ts:559-595,653-702,1399-1454"
+ ],
+ "LR-104": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/hooks/useDashboardQueue.ts:106-125,572-587,716-731"
+ ],
+ "LR-105": [
+  "open",
+  "read-only: static reading of frontend/src/services/backendApi.ts:471,526"
+ ],
+ "LR-106": [
+  "open",
+  "read-only: static reading of frontend/src/components/GoogleLoginButton.tsx:94"
+ ],
+ "LR-107": [
+  "open",
+  "read-only: static reading of frontend/src/App.tsx:407-417"
+ ],
+ "LR-108": [
+  "open",
+  "read-only: static reading of frontend/src/App.tsx:420-429"
+ ],
+ "LR-109": [
+  "open",
+  "read-only: static reading of frontend/src/pages/connections/ConnectionsPage.tsx:408-416"
+ ],
+ "LR-110": [
+  "open",
+  "read-only: static reading of frontend/src/services/backendApi.ts:485-525"
+ ],
+ "LR-111": [
+  "open",
+  "read-only: static reading of frontend/src/components/ui/ErrorBanner.tsx (zero imports)"
+ ],
+ "LR-112": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/emotion/index.ts:94"
+ ],
+ "LR-113": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/image-search/index.ts:38-40"
+ ],
+ "LR-114": [
+  "open",
+  "read-only: static reading of generation-worker/src/modules/image-search/index.ts:51-60"
+ ],
+ "LR-115": [
+  "open",
+  "read-only: static reading of generation-worker/src/players/variants.ts:6-12,24-25"
+ ],
+ "LR-116": [
+  "open",
+  "read-only: static reading of generation-worker/src/index.ts:132-174"
+ ],
+ "LR-117": [
+  "open",
+  "read-only: static reading of worker/src/researcher/providers/rss.ts:3-12,81-94"
+ ],
+ "LR-118": [
+  "open",
+  "read-only: static reading of packages/researcher/src/search.ts:14-21"
+ ],
+ "LR-119": [
+  "open",
+  "read-only: static reading of packages/researcher/src/search.ts:23-64"
+ ],
+ "LR-120": [
+  "open",
+  "read-only: static reading of setup/cloudflare.py:226-254,305-356,386-438"
+ ],
+ "LR-121": [
+  "open",
+  "read-only: static reading of setup/cloudflare.py:141-193,547-572,644-650"
+ ],
+ "LR-122": [
+  "open",
+  "read-only: static reading of setup/cloudflare.py:511,543,663"
+ ],
+ "LR-123": [
+  "open",
+  "read-only: static reading of setup/cloudflare.py:504-543,659-663"
+ ],
+ "LR-124": [
+  "open",
+  "read-only: static reading of setup/github.py:203"
+ ],
+ "LR-125": [
+  "open",
+  "read-only: static reading of setup.py:100-103"
+ ],
+ "LR-126": [
+  "open",
+  "read-only: static reading of scripts/setup-production.sh:83,98,103-106"
+ ],
+ "LR-127": [
+  "open",
+  "read-only: static reading of start.sh:80-85,221-240,255-273"
+ ],
+ "LR-128": [
+  "open",
+  "read-only: static reading of setup/wizard/server.py:14,44"
+ ],
+ "LR-129": [
+  "open",
+  "read-only: static reading of setup/wizard/steps/deploy.py:20-91"
+ ],
+ "LR-130": [
+  "open",
+  "read-only: static reading of setup/wizard/steps/apikeys.py:46-57,111-117"
+ ],
+ "LR-131": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:854,1009-1011,6500,6600"
+ ],
+ "LR-132": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:6432-6488,6546-6588"
+ ],
+ "LR-133": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:6304-6308 and the audience check near 3061"
+ ],
+ "LR-134": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:3020-3027"
+ ],
+ "LR-135": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:3031-3085,3068"
+ ],
+ "LR-136": [
+  "open",
+  "read-only: static reading of worker/src/automations/kv.ts:44-64,94-100"
+ ],
+ "LR-137": [
+  "open",
+  "read-only: static reading of worker/src/automations/platforms/gmail.ts:38-116"
+ ],
+ "LR-138": [
+  "open",
+  "read-only: static reading of worker/src/automations/platforms/instagram.ts:42-81"
+ ],
+ "LR-139": [
+  "open",
+  "read-only: static reading of worker/wrangler.jsonc:67-117,99"
+ ],
+ "LR-140": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:3148-3170,4212-4337"
+ ],
+ "LR-141": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:4221,4286,4745,5003,5127"
+ ],
+ "LR-142": [
+  "open",
+  "read-only: static reading of worker/src/features/content-review/orchestrator.ts"
+ ],
+ "LR-143": [
+  "open",
+  "read-only: static reading of worker/src/features/content-review/orchestrator.ts:51-59"
+ ],
+ "LR-144": [
+  "open",
+  "read-only: static reading of worker/src/db/users.ts:123-140"
+ ],
+ "LR-145": [
+  "open",
+  "read-only: static reading of worker/src/db/clips.ts:55-62"
+ ],
+ "LR-146": [
+  "open",
+  "read-only: static reading of worker/src/persistence/pipeline-db/pipeline.ts:157-235"
+ ],
+ "LR-147": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/migrations/0010_pipeline_user_primary.sql; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-148": [
+  "open",
+  "read-only: static reading of worker/src/generation/prompts.ts:16-37"
+ ],
+ "LR-149": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/src/image-gen/providers/dall-e.ts:4-15; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-150": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:2670-2726"
+ ],
+ "LR-151": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:3553-3582,3533-3541"
+ ],
+ "LR-152": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/src/integrations/linkedin/index.ts:60-63,75; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-153": [
+  "open",
+  "read-only: static reading of worker/src/integrations/telegram/index.ts:159-233"
+ ],
+ "LR-154": [
+  "open",
+  "read-only: static reading of worker/src/llm/providers/gemini.ts:84,157"
+ ],
+ "LR-155": [
+  "open",
+  "read-only: static reading of worker/src/llm/genWorkerDefaults.ts:23-38"
+ ],
+ "LR-156": [
+  "open",
+  "read-only: static reading of packages/researcher/src/providers/newsApis.ts:20-29"
+ ],
+ "LR-157": [
+  "open",
+  "read-only: static reading of worker/src/integrations/media.ts:187-205"
+ ],
+ "LR-158": [
+  "open",
+  "read-only: static reading of worker/src/newsletter/persistence.ts:3-44,264-303"
+ ],
+ "LR-159": [
+  "investigate",
+  "read-only: hypothesis from static reading of frontend/src/features/review/context/useReviewFlowActions.ts:624-721; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-160": [
+  "open",
+  "read-only: static reading of worker/src/modes/saas/waitlist.ts:4-26"
+ ],
+ "LR-161": [
+  "open",
+  "read-only: static reading of worker/src/index.ts:1298-1387"
+ ],
+ "LR-162": [
+  "open",
+  "read-only: static reading of AGENTS.md"
+ ],
+ "LR-163": [
+  "open",
+  "read-only: static reading of USE-CASES.md"
+ ],
+ "LR-164": [
+  "open",
+  "read-only: static reading of .env.example:40-50,117"
+ ],
+ "LR-165": [
+  "open",
+  "read-only: static reading of frontend/src/features/campaign/CampaignPage.tsx:305-308,379-420"
+ ],
+ "LR-166": [
+  "open",
+  "read-only: static reading of frontend/src/features/review/context/useReviewFlowActions.ts:229-274"
+ ],
+ "LR-167": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/FeedPage.tsx:260-278"
+ ],
+ "LR-168": [
+  "investigate",
+  "read-only: hypothesis from static reading of frontend/src/features/review/context/useReviewFlowActions.ts:344-357; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-169": [
+  "open",
+  "read-only: static reading of frontend/src/features/review-editor/screens/EditorScreen.tsx:310,370-460"
+ ],
+ "LR-170": [
+  "open",
+  "read-only: static reading of frontend/src/features/review-editor/components/EditorSidebar.tsx:25-35,360-400"
+ ],
+ "LR-171": [
+  "open",
+  "read-only: static reading of frontend/src/features/generation/EnrichmentProgressPanel.tsx"
+ ],
+ "LR-172": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/DraftContextView.tsx:66-85"
+ ],
+ "LR-173": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/FeedArticleCard.tsx:131"
+ ],
+ "LR-174": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/FeedCuratedPanel.tsx:89-92,152-154"
+ ],
+ "LR-175": [
+  "open",
+  "read-only: static reading of frontend/src/features/feed/components/ClipsDock.tsx:206,332-367"
+ ],
+ "LR-176": [
+  "open",
+  "read-only: static reading of frontend/src/features/campaign/components/newsletter/NewsletterConfigDrawer.tsx:125-137"
+ ],
+ "LR-177": [
+  "open",
+  "read-only: static reading of frontend/src/features/onboarding/OnboardingModal.tsx:56-60"
+ ],
+ "LR-178": [
+  "open",
+  "read-only: static reading of frontend/src/features/add-topic/AddTopicPage.tsx:275"
+ ],
+ "LR-179": [
+  "open",
+  "read-only: static reading of frontend/src/components/dashboard/DashboardSettingsDrawer.tsx:1235-1256,1282"
+ ],
+ "LR-180": [
+  "open",
+  "read-only: static reading of frontend/src/features/setup-wizard/setupService.ts:68-132"
+ ],
+ "LR-181": [
+  "open",
+  "read-only: static reading of frontend/src/lib/postLoginRedirect.ts:6-16"
+ ],
+ "LR-182": [
+  "open",
+  "read-only: static reading of frontend/src/App.tsx:301-367,683-689"
+ ],
+ "LR-183": [
+  "open",
+  "read-only: static reading of frontend/src/features/add-topic/AddTopicPage.tsx:296"
+ ],
+ "LR-184": [
+  "open",
+  "read-only: static reading of frontend/src/features/videos/LiveRunsPanel.tsx:6"
+ ],
+ "LR-185": [
+  "open",
+  "read-only: static reading of generation-worker/src/players/patternFinder.ts:23-36,93"
+ ],
+ "LR-186": [
+  "open",
+  "read-only: static reading of start.sh:90-118"
+ ],
+ "LR-187": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/src/index.ts:1875-1877; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-188": [
+  "open",
+  "read-only: static reading of worker/src/db/llm-usage.ts:57-62"
+ ],
+ "LR-189": [
+  "open",
+  "read-only: static reading of scripts/generate_features.py:23-32"
+ ],
+ "LR-190": [
+  "open",
+  "read-only: static reading of worker/src/engine/executor/WorkflowRunner.ts"
+ ],
+ "LR-191": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/src/index.ts:859-873; confirm by running the Repro and observing the described behaviour"
+ ],
+ "LR-192": [
+  "open",
+  "read-only: static reading of worker/src/llm/pricing.ts:36-60"
+ ],
+ "LR-193": [
+  "investigate",
+  "read-only: hypothesis from static reading of worker/src/llm/providers/gemini.ts:4-9; confirm by running the Repro and observing the described behaviour"
+ ],
+ "NW-001": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); covered by LR-173"
+ ],
+ "NW-002": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); covered by LR-097"
+ ],
+ "NW-003": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); covered by LR-111"
+ ],
+ "NW-004": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); covered by LR-110"
+ ],
+ "NW-005": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); covered by LR-183"
+ ],
+ "NW-006": [
+  "open",
+  "read-only: still open in code (no code evidence given by reconciler); covered by LR-094"
+ ],
+ "REJ-001": [
+  "rejected",
+  "read-only: compared FEA-027 against ARCH-AUDIT route list and worker/src/index.ts:714-717,804-807"
+ ],
+ "REJ-002": [
+  "n-a",
+  "read-only: ledger merge note; alias present on LR-001"
+ ],
+ "REJ-003": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence FeedArticleCard.tsx:76-83"
+ ],
+ "REJ-004": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence FeedArticleCard.tsx:~69 `line-clamp-2` + content fallback"
+ ],
+ "REJ-005": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence features/feed/hooks/useFeedKeyboard.ts:38; FeedPage.tsx:586-596"
+ ],
+ "REJ-006": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence FeedPage.tsx:1375-1405 (480px sheet, `asSheet`)"
+ ],
+ "REJ-007": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence ClipsDock.tsx:133-145"
+ ],
+ "REJ-008": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence components/dashboard/tabs/DashboardQueue.tsx:~852,896,925"
+ ],
+ "REJ-009": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence components/ui/StatusPill.tsx; DashboardQueue.tsx:20,768"
+ ],
+ "REJ-010": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence DashboardQueue.tsx:431-435,585-588"
+ ],
+ "REJ-011": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence DashboardQueue.tsx:161,187-220 (dialog owned by queue)"
+ ],
+ "REJ-012": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence components/dashboard/components/TopicDetailPanel.tsx:369"
+ ],
+ "REJ-013": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence content-schedule-calendar/ContentScheduleCalendar.tsx:367"
+ ],
+ "REJ-014": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence components/channels (imported DashboardDelivery.tsx:7, TopicsRightRail.tsx:6,258,390)"
+ ],
+ "REJ-015": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence ReviewDialogs.tsx:43 \"Restore previous draft?\"; useReviewFlowState.ts:645 autoSaveTrigger"
+ ],
+ "REJ-016": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence campaign/components/newsletter/NewsletterConfigDrawer.tsx:44-51,97-101,192-200"
+ ],
+ "REJ-017": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence NewsletterConfigDrawer.tsx:187,304-308"
+ ],
+ "REJ-018": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence DashboardSettingsDrawer.tsx:1225-1228,1305"
+ ],
+ "REJ-019": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence DashboardSettingsDrawer.tsx ~L1317-1390"
+ ],
+ "REJ-020": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence features/setup-wizard/SetupWizard.tsx:91-105"
+ ],
+ "REJ-021": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence SetupWizard.tsx:77-89 (\"Trending Sources\",\"Image Generation\",\"Voice Transcription\")"
+ ],
+ "REJ-022": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence SetupWizard.tsx:538-636; EnvVarsStep.tsx:438"
+ ],
+ "REJ-023": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence EnvVarsStep.tsx:456-532 (groups + links)"
+ ],
+ "REJ-024": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence EditorSidebar.tsx:417; GenerationPanel.tsx:312 (EnrichmentProgressPanel)"
+ ],
+ "REJ-025": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker index.ts:1812 `setArticleFeedback`, :1823 get; FeedPage.tsx:1280"
+ ],
+ "REJ-026": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence App.tsx:126; components/HelpOverlay.tsx:4-9; hooks/useGlobalShortcuts.ts"
+ ],
+ "REJ-027": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence campaign/CampaignPage.tsx:70,591-603 (Prompt/File/Paste)"
+ ],
+ "REJ-028": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence CampaignPage.tsx:247-251 localStorage; :469 undo text"
+ ],
+ "REJ-029": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence pages/connections/ConnectionsPage.tsx:22,60"
+ ],
+ "REJ-030": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence ConnectionsPage.tsx:7,15,23 `verifyTelegramChat`"
+ ],
+ "REJ-031": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence features/automations/api.ts:16,30,67"
+ ],
+ "REJ-032": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence features/automations/AutomationsTab.tsx:120"
+ ],
+ "REJ-033": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker index.ts:1878; backendApi.ts:1077"
+ ],
+ "REJ-034": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker index.ts:1572; backendApi.ts:649"
+ ],
+ "REJ-035": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker index.ts:1919,2024,2070,2118,2159,2201"
+ ],
+ "REJ-036": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence AppSidebar.tsx:116-148 (`PAGE_TO_PATH` incl. automations; `useEnd` only topics)"
+ ],
+ "REJ-037": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence add-topic/TrendingSidebar.tsx:8-31; TopicRightPanel.tsx:87,96; useTrending.ts:295-300"
+ ],
+ "REJ-038": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence features/content-review/ContentReviewSettings.tsx:58-62 (empty-catalog guard); services/configServic"
+ ],
+ "REJ-039": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence components/dashboard/components/TopicsRightRail.tsx:111-125"
+ ],
+ "REJ-040": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker index.ts:2070,2118,2159,2201; backendApi.ts:1730-1745"
+ ],
+ "REJ-041": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence ArticleDetailView.tsx:189,571; FeedPage.tsx onDebate"
+ ],
+ "REJ-042": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence features/feed/components/DebateModeView.tsx; FeedPage.tsx debateMode"
+ ],
+ "REJ-043": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence DraftContextView.tsx:143,159"
+ ],
+ "REJ-044": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence FeedPage.tsx; /trending redirects dashboard/index.tsx:899-900"
+ ],
+ "REJ-045": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker index.ts:714-717,804-807"
+ ],
+ "REJ-046": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence ClipsDock.tsx:158,332-367"
+ ],
+ "REJ-047": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence worker engine/types.ts, draft-generator.ts; frontend VariantCarousel.tsx"
+ ],
+ "REJ-048": [
+  "fixed",
+  "read-only: existing-reviews.md recorded evidence useReviewFlowActions.ts:~357-372 (compare onConfirm sets editor text)"
+ ],
+ "SP-001": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence AppSidebar.tsx:116-148 (PAGE_TO_PATH incl. automations; useEnd only topics)"
+ ],
+ "SP-002": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence add-topic/TrendingSidebar.tsx:8-31; TopicRightPanel.tsx:87,96; useTrending.ts:295-300"
+ ],
+ "SP-003": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence features/content-review/ContentReviewSettings.tsx:58-62 (empty-catalog guard); services/configService.ts:293-308 normalize"
+ ],
+ "SP-004": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence components/dashboard/components/TopicsRightRail.tsx:111-125"
+ ],
+ "SP-005": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker index.ts:2070,2118,2159,2201; backendApi.ts:1730-1745"
+ ],
+ "SP-006": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence ArticleDetailView.tsx:189,571; FeedPage.tsx onDebate"
+ ],
+ "SP-007": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence features/feed/components/DebateModeView.tsx; FeedPage.tsx debateMode"
+ ],
+ "SP-008": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence DraftContextView.tsx:143,159"
+ ],
+ "SP-009": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not run (read-only rule)); needs a check"
+ ],
+ "UC-001": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence pages/connections/ConnectionsPage.tsx:22,60"
+ ],
+ "UC-002": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence ConnectionsPage.tsx:7,15,23 verifyTelegramChat"
+ ],
+ "UC-003": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence features/automations/api.ts:16,30,67"
+ ],
+ "UC-004": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence features/automations/AutomationsTab.tsx:120"
+ ],
+ "UC-005": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (message-pattern based, not status based); needs a check"
+ ],
+ "UC-006": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not traced into worker); needs a check"
+ ],
+ "UC-007": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (features/onboarding); needs a check"
+ ],
+ "UC-008": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (route /dashboard not confirmed); needs a check"
+ ],
+ "UC-009": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker index.ts:1878; backendApi.ts:1077"
+ ],
+ "UC-010": [
+  "open",
+  "read-only: partial; still open in code (dialog exists; \"Save & Continue saveDraftVariants\" not traced); covered by LR-163"
+ ],
+ "UC-011": [
+  "open",
+  "read-only: partial; still open in code (doc stale); covered by LR-163"
+ ],
+ "UC-012": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker index.ts:1572; backendApi.ts:649"
+ ],
+ "UC-013": [
+  "open",
+  "read-only: partial; still open in code (EditorScreen.tsx:~393 label is Publish to <channel>); covered by LR-163"
+ ],
+ "UC-014": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (likely false claim); needs a check; covered by LR-088"
+ ],
+ "UC-015": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not traced end-to-end; Gmail email fields in EditorSidebar (Email tab)); needs a check"
+ ],
+ "UC-016": [
+  "open",
+  "read-only: partial; still open in code (ConnectionsPage.tsx; Telegram/WhatsApp *recipient* config still in Settings drawer (DashboardSettingsDrawer.tsx:1788,1939)); covered by LR-163"
+ ],
+ "UC-017": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (alarms not traced); needs a check"
+ ],
+ "UC-018": [
+  "open",
+  "read-only: partial; still open in code (doc oversimplified); covered by LR-163"
+ ],
+ "UC-019": [
+  "investigate",
+  "read-only: reconciler could not confirm in code (not inspected); needs a check"
+ ],
+ "UC-020": [
+  "open",
+  "read-only: partial; still open in code (mock fallback is real code - confirm it cannot reach prod users); covered by LR-094"
+ ],
+ "UC-021": [
+  "fixed",
+  "read-only: fixed per reconciliation, evidence worker index.ts:1919,2024,2070,2118,2159,2201"
+ ],
+ "UC-022": [
+  "open",
+  "read-only: partial; still open in code (lives in Feed, not editor sidebar); covered by LR-163"
+ ],
+ "UC-023": [
+  "open",
+  "read-only: still open in code (doc not updated; journeys not run by this review); covered by LR-163"
+ ]
+}

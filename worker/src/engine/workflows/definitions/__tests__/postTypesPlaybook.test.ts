@@ -3,7 +3,7 @@
  *
  * Unit tests for the Content Post Types Playbook — 7 structural post-type templates.
  *
- * Spec source: FEED_EXPLORATION_REPORT.md § "Content Post Types Playbook"
+ * Spec source: launch-release/ledgers-legacy/FEED_EXPLORATION_REPORT.md § "Content Post Types Playbook"
  * Architecture: docs/plans/plan-002-post-quality-engine/architecture.md
  *
  * Each post type embeds a named arc pattern (e.g. HOOK→CONTEXT→TAKE→CTA) in its
