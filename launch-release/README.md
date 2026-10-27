@@ -24,6 +24,9 @@
 | [findings/LEGACY-TRACKERS.md](findings/LEGACY-TRACKERS.md) | Open items from the moved root trackers |
 | [findings/INVESTIGATE.md](findings/INVESTIGATE.md) | Things that need a check before anyone acts |
 | [findings/GAPS.md](findings/GAPS.md) | Review gaps and process issues |
+| [findings/JOURNEY-DELTA.md](findings/JOURNEY-DELTA.md) | Journey-level code findings that the first merge missed (JRN-IDs) |
+| [findings/TEST-COVERAGE.md](findings/TEST-COVERAGE.md) | P0/P1 core journeys with no automated test (TST-IDs) |
+| [findings/AUTOMATIONS.md](findings/AUTOMATIONS.md) | Review of automations/ (AUT-IDs) |
 | [findings/ARCH-AUDIT.md](findings/ARCH-AUDIT.md) | Docs-vs-code conformance and architecture gaps |
 | [findings/CODE-REVIEW.md](findings/CODE-REVIEW.md) | Index of the per-area code reviews |
 | [findings/EXEC-RESULTS.md](findings/EXEC-RESULTS.md) | Execution results (empty: nothing has been executed yet) |

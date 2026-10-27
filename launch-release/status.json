@@ -67,6 +67,26 @@
   "open",
   "read-only: still open in code (DashboardSettingsDrawer.tsx 2251 lines; FeedPage.tsx 1490; EditorSidebar large); covered by LR-179"
  ],
+ "AUT-001": [
+  "open",
+  "read-only: read automations/youtube_poller.py, .github/workflows/youtube-comment-poll.yml, worker/src/automations/routes.ts, worker/src/index.ts verifySchedulerSecret"
+ ],
+ "AUT-002": [
+  "open",
+  "read-only: read automations/youtube_poller.py, .github/workflows/youtube-comment-poll.yml, worker/src/automations/routes.ts, worker/src/index.ts verifySchedulerSecret"
+ ],
+ "AUT-003": [
+  "open",
+  "read-only: read automations/youtube_poller.py, .github/workflows/youtube-comment-poll.yml, worker/src/automations/routes.ts, worker/src/index.ts verifySchedulerSecret"
+ ],
+ "AUT-004": [
+  "open",
+  "read-only: read automations/youtube_poller.py, .github/workflows/youtube-comment-poll.yml, worker/src/automations/routes.ts, worker/src/index.ts verifySchedulerSecret"
+ ],
+ "AUT-005": [
+  "investigate",
+  "read-only: read automations/youtube_poller.py, .github/workflows/youtube-comment-poll.yml, worker/src/automations/routes.ts, worker/src/index.ts verifySchedulerSecret"
+ ],
  "CONS-001": [
   "frozen",
   "read-only: real gap, frozen as FRZ-001 (see LEDGER.md Frozen); no group headers"
@@ -732,20 +752,20 @@
   "read-only: checked that launch-release/findings/EXEC-RESULTS.md is absent from the directory listing."
  ],
  "GAP-002": [
-  "open",
-  "read-only: checked that findings/raw/gen-pkg.md exists and holds the only generation-worker items."
+  "fixed",
+  "read-only: generation-worker/src reviewed by gen-pkg (GWP-*); reconciler grep timeout no longer blocks coverage"
  ],
  "GAP-003": [
-  "open",
-  "read-only: checked that tests/ and tests-e2e/ exist at the repo root; their contents were not read."
+  "fixed",
+  "read-only: covered by launch-release/findings/TEST-COVERAGE.md, AUTOMATIONS.md and JOURNEY-DELTA.md"
  ],
  "GAP-004": [
   "open",
   "read-only: checked that .gitmodules, video-pipeline/direction/skills/LEDGER.yaml and docs/plans/video-pipeline/BACKLOG.md exist."
  ],
  "GAP-005": [
-  "open",
-  "read-only: checked that the three directories exist."
+  "fixed",
+  "read-only: covered by launch-release/findings/TEST-COVERAGE.md, AUTOMATIONS.md and JOURNEY-DELTA.md"
  ],
  "GAP-006": [
   "open",
@@ -910,6 +930,26 @@
  "INV-020": [
   "investigate",
   "read-only: ARCH-AUDIT marks it hypothesis, not confirmed; not run. Covered by LR-070."
+ ],
+ "JRN-001": [
+  "open",
+  "read-only: worker/src/index.ts:1212-1227"
+ ],
+ "JRN-002": [
+  "open",
+  "read-only: worker/src/index.ts:4750-4800"
+ ],
+ "JRN-003": [
+  "open",
+  "read-only: worker/src/index.ts:2289-2299"
+ ],
+ "JRN-004": [
+  "open",
+  "read-only: worker/src/index.ts:1559-1569"
+ ],
+ "JRN-005": [
+  "investigate",
+  "read-only: frontend/src/App.tsx:374-380"
  ],
  "LR-001": [
   "open",
@@ -1934,6 +1974,154 @@
  "SP-009": [
   "investigate",
   "read-only: reconciler could not confirm in code (not run (read-only rule)); needs a check"
+ ],
+ "TST-001": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-002": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-003": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-004": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-005": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-006": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-007": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-008": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-009": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-010": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-011": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-012": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-013": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-014": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-015": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-016": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-017": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-018": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-019": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-020": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-021": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-022": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-023": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-024": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-025": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-026": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-027": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-028": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-029": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-030": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-031": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-032": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-033": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-034": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-035": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-036": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
+ ],
+ "TST-037": [
+  "open",
+  "read-only: grepped test globs and read test titles for the journey's route/action/message text; no test run"
  ],
  "UC-001": [
   "fixed",
