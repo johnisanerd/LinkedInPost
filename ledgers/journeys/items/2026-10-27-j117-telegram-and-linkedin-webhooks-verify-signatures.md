@@ -1,0 +1,67 @@
+---
+id: 2026-10-27-j117-telegram-and-linkedin-webhooks-verify-signatures
+title: J-117 Telegram and LinkedIn webhooks verify signatures
+status: planned
+created: '2026-10-27'
+updated: '2026-10-27'
+journey_type: user
+scope_type: section
+scope: worker
+actor: Background / agent actor
+trigger: Telegram webhook registered (secret token stored under KV `telegramSecret`).
+verification_owner: unassigned (owner to set)
+source_revision: null
+checked_at: null
+modules: &id001
+- worker/src/automations/platforms/telegram.ts
+- worker/src/automations/platforms/linkedin.ts
+- worker/src/automations/webhook-verify.ts
+code_paths: *id001
+related: []
+docs:
+- docs/launch-readiness/journeys/JOURNEYS.md
+priority: P2
+core: 'no'
+external_service: Telegram, LinkedIn
+legacy_id: J-117
+---
+
+## Purpose and scope
+
+Telegram and LinkedIn webhooks verify signatures. Priority P2, CORE no. Imported from journey J-117 in docs/launch-readiness/journeys/JOURNEYS.md.
+
+## Actor, trigger and prerequisites
+
+Persona: Background / agent actor. Preconditions: Telegram webhook registered (secret token stored under KV `telegramSecret`).
+
+## Steps and information flow
+
+1. `POST /webhooks/telegram` with the right `X-Telegram-Bot-Api-Secret-Token` and a message update.
+2. Same with a wrong/missing header.
+3. `POST /webhooks/linkedin` with a bad and a good `X-LI-Signature`.
+
+## Modules and code map
+
+worker/src/automations/platforms/telegram.ts, worker/src/automations/platforms/linkedin.ts, worker/src/automations/webhook-verify.ts
+
+Code anchors that exist: worker/src/automations/platforms/telegram.ts, worker/src/automations/platforms/linkedin.ts, worker/src/automations/webhook-verify.ts
+
+## Success and acceptance
+
+Wrong secret/signature -> event silently dropped (still HTTP 200 `OK`); valid -> automation rule evaluated and reply sent; `LINKEDIN_CLIENT_SECRET` unset -> all LinkedIn events dropped.
+
+## Failure, edge cases and recovery
+
+Failure behaviour is described in the steps and pass check above. Defects found on this journey are linked from their backlog records (their journeys field names this record).
+
+## Verification evidence
+
+Not verified. Nothing was executed; the journey was derived from reading the code. Status stays planned until the steps are run at a named revision.
+
+## Gaps and linked work
+
+Linked work is derived from the backlog records whose journeys field names this record.
+
+## Next actions
+
+Run the steps on a fresh clone and the pass check; record the outcome in Verification evidence; resolve every linked backlog item before marking verified.

@@ -1,0 +1,2 @@
+# Ledger tooling only; does not prescribe the application stack.
+PyYAML>=6.0,<7
