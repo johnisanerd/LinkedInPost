@@ -1,5 +1,7 @@
 # `cons/` — UX Cons & Phased Fix Plan
 
+> **Status note (2026-10-27):** Each con here was re-checked against the current code in the launch-readiness review (fixed / partial / open / n-a / unverified). Results: [`launch-release/findings/raw/existing-reviews.md`](../launch-release/findings/raw/existing-reviews.md). Open UX items are tracked in [`launch-release/LEDGER.md`](../launch-release/LEDGER.md) with the `cons` source IDs as aliases. This folder stays as the UX critique record.
+
 A deep audit of UX problems in the LinkedInPost app, written from **four perspectives** (UX Designer, Product Owner, Stakeholder, End User), with a **phase / stage / file** remediation plan concise enough for a sub-agent to execute.
 
 The folder ships **two complementary cuts** of the same work:

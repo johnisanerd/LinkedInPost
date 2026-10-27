@@ -1,5 +1,7 @@
 # LinkedIn-Post Channel Bot: Business User Journeys & Wiring Audit
 
+> **Status note (2026-10-27):** This wiring audit is kept as history. Its ✅ claims were re-checked against the code in the launch-readiness review: see [`launch-release/findings/raw/existing-reviews.md`](launch-release/findings/raw/existing-reviews.md). Current journeys are in [`launch-release/journeys/JOURNEYS.md`](launch-release/journeys/JOURNEYS.md) and open items in [`launch-release/LEDGER.md`](launch-release/LEDGER.md).
+
 ## Overview
 
 This document audits the application's core user journeys, from content ideation through multi-channel publishing. Each journey maps user actions → frontend components → backend APIs → expected outcomes and wiring status.
