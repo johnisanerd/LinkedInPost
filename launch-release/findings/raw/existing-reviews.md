@@ -186,13 +186,13 @@ Headline: `cons/` checkboxes are almost all unticked, but much of Phase 1 has ac
 | U-J12b | Debate/cluster "in editor" | ✅ | partial | consumers are feed/DraftContextView.tsx:111,143,159, ArticleDetailView.tsx:189 | lives in Feed, not editor sidebar |
 | U-E2E | E2E matrix items all unchecked; "100% wired" claim | - | open | tests/e2e/*.spec.ts exist (editor, scheduling, connections, ...) | doc not updated; journeys not run by this review |
 
-## 3. FEED_EXPLORATION_REPORT.md / MCP-PROGRESS.md
+## 3. launch-release/ledgers-legacy/FEED_EXPLORATION_REPORT.md / launch-release/ledgers-legacy/MCP-PROGRESS.md
 
 | Src ID | Item (short) | Orig tag | Status | Evidence | Notes |
 |---|---|---|---|---|---|
 | F-1 | Report is a descriptive snapshot (no open items); stale numbers (FeedPage 639 lines, BATCH 10, 5 platform panels, absolute paths under /Users/pratyushmishra) | - | n-a | FeedPage.tsx now 1490 lines; FeedLeftPanel BATCH_SIZE=20 | do not use as source of truth |
 | F-2 | Report: right-click delete only; sidebar hidden <lg; hover-only clip | info | open | ClipsDock.tsx:206; FeedPage.tsx:1340; FeedArticleCard.tsx | same as C02/C03 |
-| M-1 | MCP-PROGRESS: 24/24 items `[x]` (python setup files); nothing pending | - | n-a | MCP-PROGRESS.md | nothing to reconcile; not product-user-facing |
+| M-1 | MCP-PROGRESS: 24/24 items `[x]` (python setup files); nothing pending | - | n-a | launch-release/ledgers-legacy/MCP-PROGRESS.md | nothing to reconcile; not product-user-facing |
 
 ## 4. docs/superpowers plans
 

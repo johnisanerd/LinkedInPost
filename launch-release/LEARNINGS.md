@@ -1,0 +1,12 @@
+# Review learnings (append-only)
+
+Each entry: date, what happened, the lesson, and the evidence. Append as things happen; do not rewrite old entries.
+
+- 2026-10-27: The owner named a repository "setup" as the ledger template source. No local repo with that name exists in ~/Documents/GitHub. The template used is trade/docs-manager/launch-release (structure, LEDGER format, build_ledger.py, status.json) and Developer-Tools/skills/release-readiness/SKILL.md (the skill). Lesson: confirm the template path before creating ledgers; record the assumption in GAP-008.
+- 2026-10-27: Eight static reviewers produced 224 raw findings. Spot-checks of the P0 claims (ARCH-001, ARCH-002, LR-003, LR-011, LR-013, LR-015, LR-016) all held against the code. One raw claim was wrong (FEA-027: "/api/clips is not routed") and is recorded as rejected. Lesson: keep the P0 spot-check step; sub-agent claims that name an absent route need a grep before they enter the ledger.
+- 2026-10-27: Two reviewers disagree about whether the clip REST calls are broken (FEB-002 vs FEA-027). Lesson: when two reviewers conflict, keep both in an investigate item rather than picking one.
+- 2026-10-27: The journey designer and the finding reviewers rated the same journeys at different severity (J-127, J-060, J-031, J-116). Lesson: the journey priority is the owner's view of impact; the finding Sev is the defect's view. Keep both and record the disagreement.
+- 2026-10-27: The reconciler's grep of generation-worker/src timed out, so that directory was only covered by one reviewer. Lesson: split any directory that is too large to grep in one pass before dispatching reviewers.
+- 2026-10-27: The reconciler marked rows "fixed" from code reading only. These are read-only evidence, not executed proof. Lesson: "fixed" in the ledger means "the current code shows the fix"; it is not a verification. Verified text says which.
+- 2026-10-27: Fetch and gh calls timed out during the sync (120 s tool limit, and GitHub API unreachable at one point). Lesson: run network calls as separate steps and retry them one at a time before blaming auth (same lesson as the trade ledger).
+- 2026-10-27: The review branch was merged into main at the owner's request, which overrides AGENTS.md's "work directly on main, no worktrees" only for the branch step. Lesson: record the rule change decision in GAP-007 until the owner decides whether to keep or update AGENTS.md.
