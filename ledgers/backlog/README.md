@@ -471,6 +471,8 @@ See [protocol](../PROTOCOL.md), [template](TEMPLATE.md), and [all ledgers](../RE
 | [The ledger record generator exists only in scratch space, so the imported records cannot be regenerated from the repository](items/2026-10-27-wrap-002-ledger-generator-only-in-scratch.md) | open | — | — | 2026-10-27 |
 | [146 journeys have no verification owner, so no one is accountable for running them](items/2026-10-27-wrap-003-journeys-have-no-verification-owner.md) | open | — | — | 2026-10-27 |
 | [The pre-setup status snapshot and its duplicate findings files can be retired once the ledger is accepted](items/2026-10-27-wrap-004-retire-pre-setup-status-snapshot.md) | open | — | — | 2026-10-27 |
+| [Another session pushed to graphCoder main from its own worktree; owner should check it](items/2026-10-27-wrap-005-cross-repo-push-to-graphcoder-main.md) | open | — | — | 2026-10-27 |
+| [origin has a branch codex/preserve-video-backlog-followups-2026-10-21 that this session did not create and has not merged](items/2026-10-27-wrap-006-unmerged-origin-branch-from-another-session.md) | open | — | — | 2026-10-27 |
 
 ## Archived records
 
@@ -552,3 +554,4 @@ See [protocol](../PROTOCOL.md), [template](TEMPLATE.md), and [all ledgers](../RE
 | [Template source repo named 'setup' not found](archive/2026-10-27-gap-008-template-source-repo-named-setup-not.md) | closed | — | — | 2026-10-27 |
 | [10 .DS_Store files are tracked by git](archive/2026-10-27-hyg-001-10-ds-store-files-are-tracked.md) | closed | — | — | 2026-10-27 |
 | [Runtime state from an agent run is tracked in git](archive/2026-10-27-hyg-002-runtime-state-from-an-agent-run.md) | closed | — | — | 2026-10-27 |
+| [Import scripts were only in scratch; now preserved in docs/launch-readiness/importers with checksums](archive/2026-10-27-wrap-007-import-scripts-preserved-in-repo.md) | closed | — | — | 2026-10-27 |
